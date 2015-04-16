@@ -10,33 +10,21 @@ if(!(isValidVolume($volume)))
 	exit(1);
 }
 
-$query = "select distinct part, month, date from article where volume='$volume' order by part";
+$query = "select distinct part,month from article where volume='$volume' order by part";
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
-echo '<div id="issueHolder" class="issueHolder">';
-$row_count = 14;
-$count = 0;
-$col = 1;
+
+echo '<div id="issueHolder" class="issueHolder"><div class="issue">';
 
 if($num_rows > 0)
 {
-	echo '<div class="issue">';
 	while($row = $result->fetch_assoc())
 	{
-		$count++;
-		if($count > $row_count)
-		{
-			echo '</div>';
-			echo '<div class="issue">';
-			$count = 1;
-		}
-		$ddate = preg_replace('/^0/', '', $row['date']);
-		echo '<div class="aIssue"><a href="toc.php?vol=' . $volume . '&amp;part=' . $row['part'] . '">' .  getMonth($row['month']) . '&nbsp;' . $ddate . '</a></div>';
+		echo '<div class="aIssue"><a href="toc.php?vol=' . $volume . '&amp;part=' . $row['part'] . '">' . $row['part'] . '</a></div>';
 	}
-	echo '</div>';
 }
 
-echo '</div>';
+echo '</div></div>';
 
 if($result){$result->free();}
 $db->close();

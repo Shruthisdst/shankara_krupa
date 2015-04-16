@@ -185,7 +185,7 @@ Modules - reusable parts of our design
 }
 
 .archiveIcon{
-  width: 275px;
+  width: 175px;
   color: #BBB;
   line-height: 0px;
   margin-bottom: 60px;
@@ -356,8 +356,9 @@ Modules - reusable parts of our design
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
   background-color: #EEE;  
-}
+ }
 
 .issueHolder{
   margin: 0px auto 0 auto;

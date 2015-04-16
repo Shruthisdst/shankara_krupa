@@ -69,7 +69,7 @@ if($num_rows > 0)
 	{
 		$query3 = 'select feat_name from feature where featid=\'' . $row['featid'] . '\'';
 		$result3 = $db->query($query3); 
-		$row3 = $result3->fetch_assoc();		
+		$row3 = $result3->fetch_assoc();
 		
 		$dpart = preg_replace("/^0/", "", $row['part']);
 		$dpart = preg_replace("/\-0/", "-", $dpart);

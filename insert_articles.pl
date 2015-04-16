@@ -8,7 +8,8 @@ $pwd = $ARGV[3];
 use DBI();
 @ids=();
 
-open(IN,"bvb.xml") or die "can't open bvb.xml\n";
+open(IN,"<:utf8","shankara_krupa.xml") or die "can't open shankara_krupa.xml\n";
+
 
 my $dbh=DBI->connect("DBI:mysql:database=$db;host=$host","$usr","$pwd");
 
@@ -18,20 +19,23 @@ $sth11d=$dbh->prepare("DROP TABLE IF EXISTS article");
 $sth11d->execute();
 $sth11d->finish();
 
+$sth_enc=$dbh->prepare("set names utf8");
+$sth_enc->execute();
+$sth_enc->finish();
+
 $sth11r=$dbh->prepare("CREATE TABLE article(title varchar(500),
-tnum varchar(10),
 authid varchar(200),
 authorname varchar(1000),
 featid varchar(10),
-seriesid varchar(10),
 page varchar(10), 
 page_end varchar(10), 
 volume varchar(3),
 part varchar(10),
 year varchar(10), 
 month varchar(10),
-date varchar(10),
-titleid varchar(30), primary key(titleid)) ENGINE=MyISAM");
+maasa varchar(500),
+samvatsara varchar(500),
+titleid varchar(30), primary key(titleid)) ENGINE=MyISAM character set utf8 collate utf8_general_ci;");
 $sth11r->execute();
 $sth11r->finish();
 
@@ -44,30 +48,25 @@ while($line)
 		$volume = $1;
 		print $volume . "\n";
 	}
-	elsif($line =~ /<part pnum="(.*)" date="(.*)" month="(.*)" year="(.*)" cover="(.*)">/)
+	elsif($line =~ /<part pnum="(.*)" month="(.*)" year="(.*)" maasa="(.*)" samvatsara="(.*)">/)
 	{
 		$part = $1;
-		$date = $2;
-		$month = $3;
-		$year = $4;
+		$month = $2;
+		$year = $3;
+		$maasa = $4;
+		$samvatsara = $5;
 		$count = 0;
 		$prev_pages = "";
 	}	
-	elsif($line =~ /<title num="(.*)">(.*)<\/title>/)
+	elsif($line =~ /<title>(.*)<\/title>/)
 	{
-		$tnum = $1;
-		$title = $2;
+		$title = $1;
 	}
 	elsif($line =~ /<feature>(.*)<\/feature>/)
 	{
 		$feature = $1;
 		$featid = get_featid($feature);
-	}	
-	elsif($line =~ /<series>(.*)<\/series>/)
-	{
-		$series = $1;
-		$seriesid = get_seriesid($series);
-	}	
+	}
 	elsif($line =~ /<page>(.*)<\/page>/)
 	{
 		$pages = $1;
@@ -75,11 +74,11 @@ while($line)
 		if($pages eq $prev_pages)
 		{
 			$count++;
-			$id = "bvb_" . $volume . "_" . $part . "_" . $page . "_" . $page_end . "_" . $count; 
+			$id = "shankara_krupa_" . $volume . "_" . $part . "_" . $page . "_" . $page_end . "_" . $count; 
 		}
 		else
 		{
-			$id = "bvb_" . $volume . "_" . $part . "_" . $page . "_" . $page_end . "_0";
+			$id = "shankara_krupa_" . $volume . "_" . $part . "_" . $page . "_" . $page_end . "_0";
 			$count = 0;
 		}
 		$prev_pages = $pages;
@@ -91,9 +90,9 @@ while($line)
 			$page_end = $page;
 		}
 	}
-	elsif($line =~ /<author type="(.*)">(.*)<\/author>/)
+	elsif($line =~ /<author type="(.*)" title="(.*)">(.*)<\/author>/)
 	{
-		$authorname = $2;
+		$authorname = $3;
 		$authids = $authids . ";" . get_authid($authorname);
 		$author_name = $author_name . ";" .$authorname;
 	}
@@ -104,10 +103,9 @@ while($line)
 	}
 	elsif($line =~ /<\/entry>/)
 	{
-		insert_article($title,$tnum,$authids,$author_name,$featid,$seriesid,$page,$page_end,$volume,$part,$year,$month,$date,$id);
+		insert_article($title,$authids,$author_name,$featid,$page,$page_end,$volume,$part,$year,$month,$maasa,$samvatsara,$id);
 		$authids = "";
 		$featid = "";
-		$seriesid = "";
 		$author_name = "";
 		$id = "";
 	}
@@ -119,7 +117,7 @@ $dbh->disconnect();
 
 sub insert_article()
 {
-	my($title,$tnum,$authids,$author_name,$featid,$seriesid,$page,$page_end,$volume,$part,$year,$month,$date,$id) = @_;
+	my($title,$authids,$author_name,$featid,$page,$page_end,$volume,$part,$year,$month,$maasa,$samvatsara,$id) = @_;
 	my($sth1);
 
 	$title =~ s/'/\\'/g;
@@ -127,7 +125,7 @@ sub insert_article()
 	$author_name =~ s/^;//;
 	$author_name =~ s/'/\\'/g;
 	
-	$sth1=$dbh->prepare("insert into article values('$title','$tnum','$authids','$author_name','$featid','$seriesid','$page','$page_end','$volume','$part','$year','$month','$date','$id')");
+	$sth1=$dbh->prepare("insert into article values('$title','$authids','$author_name','$featid','$page','$page_end','$volume','$part','$year','$month','$maasa','$samvatsara','$id')");
 	
 	$sth1->execute();
 	$sth1->finish();
@@ -163,20 +161,4 @@ sub get_featid()
 	$featid = $ref->{'featid'};
 	$sth->finish();
 	return($featid);
-}
-
-sub get_seriesid()
-{
-	my($series) = @_;
-	my($sth,$ref,$seriesid);
-
-	$series =~ s/'/\\'/g;
-	
-	$sth=$dbh->prepare("select seriesid from series where series_name='$series'");
-	$sth->execute();
-
-	my $ref = $sth->fetchrow_hashref();
-	$seriesid = $ref->{'seriesid'};
-	$sth->finish();
-	return($seriesid);
 }

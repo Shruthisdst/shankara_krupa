@@ -29,13 +29,6 @@ function isValidTitle($title)
 {
 	return is_array($title) ? false : true;
 }
-
-function isValidLetter($letter)
-{
-	if(is_array($letter)){return false;}
-	return preg_match("/^([A-Z]|Special)$/", $letter) ? true : false;
-}
-
 function isValidVolume($vol)
 {
 	if(is_array($vol)){return false;}
@@ -45,7 +38,7 @@ function isValidVolume($vol)
 function isValidPart($part)
 {
 	if(is_array($part)){return false;}
-	return preg_match("/([0-9][0-9]\_[0-9][0-9])||([0-9][0-9])/", $part) ? true : false;
+	return preg_match("/([0-9][0-9]\-[0-9][0-9])||([0-9][0-9])/", $part) ? true : false;
 }
 
 function isValidYear($year)
@@ -63,17 +56,6 @@ function isValidFeatid($featid)
 {
 	if(is_array($featid)){return false;}
 	return preg_match("/^[0-9][0-9][0-9][0-9][0-9]$/", $featid) ? true : false;
-}
-
-function isValidSeries($series)
-{
-	return is_array($series) ? false : true;
-}
-
-function isValidSeriesid($seriesid)
-{
-	if(is_array($seriesid)){return false;}
-	return preg_match("/^[0-9][0-9][0-9][0-9][0-9]$/", $seriesid) ? true : false;
 }
 
 function isValidAuthid($authid)
@@ -120,15 +102,35 @@ function getYearMonth($volume, $part)
 	$query = "select distinct year,month from article where volume='$volume' and part='$part'";
 	$result = $db->query($query);
 	$num_rows = $result ? $result->num_rows : 0;
-	if($num_rows > 0) {
-
+	if($num_rows > 0)
+	{
 		$row = $result->fetch_assoc();
 		return($row);
 	}
-	else {
-
+	else
+	{
 		$row['year'] = '';
 		$row['month'] = '';
+		return($row);
+	}
+}
+
+function getmaasa($volume, $part)
+{
+	include("connect.php");
+
+	$query = "select distinct maasa, samvatsara from article where volume='$volume' and part='$part'";
+	$result = $db->query($query);
+	$num_rows = $result ? $result->num_rows : 0;
+	if($num_rows > 0)
+	{
+		$row = $result->fetch_assoc();
+		return($row);
+	}
+	else
+	{
+		$row['maasa'] = '';
+		$row['samvatsara'] = '';
 		return($row);
 	}
 }
@@ -159,18 +161,18 @@ function getYear($volume)
 
 function getMonth($month)
 {
-	$month = preg_replace('/01/', 'Jan', $month);
-	$month = preg_replace('/02/', 'Feb', $month);
-	$month = preg_replace('/03/', 'Mar', $month);
-	$month = preg_replace('/04/', 'Apr', $month);
+	$month = preg_replace('/01/', 'January', $month);
+	$month = preg_replace('/02/', 'February', $month);
+	$month = preg_replace('/03/', 'March', $month);
+	$month = preg_replace('/04/', 'April', $month);
 	$month = preg_replace('/05/', 'May', $month);
-	$month = preg_replace('/06/', 'Jun', $month);
-	$month = preg_replace('/07/', 'Jul', $month);
-	$month = preg_replace('/08/', 'Aug', $month);
-	$month = preg_replace('/09/', 'Sep', $month);
-	$month = preg_replace('/10/', 'Oct', $month);
-	$month = preg_replace('/11/', 'Nov', $month);
-	$month = preg_replace('/12/', 'Dec', $month);
+	$month = preg_replace('/06/', 'June', $month);
+	$month = preg_replace('/07/', 'July', $month);
+	$month = preg_replace('/08/', 'August', $month);
+	$month = preg_replace('/09/', 'September', $month);
+	$month = preg_replace('/10/', 'October', $month);
+	$month = preg_replace('/11/', 'November', $month);
+	$month = preg_replace('/12/', 'December', $month);
 	
 	return $month;
 }

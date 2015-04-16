@@ -7,13 +7,18 @@ $pwd = $ARGV[3];
 
 use DBI();
 
-open(IN,"bvb.xml") or die "can't open bvb.xml\n";
+open(IN,"<:utf8","shankara_krupa.xml") or die "can't open shankara_krupa.xml\n";
+
 
 my $dbh=DBI->connect("DBI:mysql:database=$db;host=$host","$usr","$pwd");
 
 $sth11d=$dbh->prepare("DROP TABLE IF EXISTS author");
 $sth11d->execute();
 $sth11d->finish();
+
+$sth_enc=$dbh->prepare("set names utf8");
+$sth_enc->execute();
+$sth_enc->finish();
 
 $sth11=$dbh->prepare("CREATE TABLE author(authorname varchar(400), authid int(6) auto_increment, primary key(authid))auto_increment=10001 ENGINE=MyISAM;");
 $sth11->execute();
@@ -23,9 +28,9 @@ $line = <IN>;
 
 while($line)
 {
-	if($line =~ /<author type="(.*)">(.*)<\/author>/)
+	if($line =~ /<author type="(.*)" title="(.*)">(.*)<\/author>/)
 	{
-		$authorname = $2;
+		$authorname = $3;
 		insert_authors($authorname);
 	}
 	$line = <IN>;

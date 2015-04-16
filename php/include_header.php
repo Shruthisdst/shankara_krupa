@@ -34,7 +34,7 @@
 				<li><a href="../index.html#archive">Archive</a> | <a href="volumes.php">Years</a></li>
 				<li><a href="php/help.php">Help</a></li>
 			</ul>
-		</nav> <!-- cd-main-nav -->
+		</nav><!-- cd-main-nav -->
 
 		<div id="cd-sec-nav">
 			<a href="#0" class="cd-sec-nav-trigger">Menu<span></span></a>
@@ -44,7 +44,6 @@
 					<li><a href="articles.php"><i class="fa fa-files-o"></i> Titles</a></li>
 					<li><a href="authors.php"><i class="fa fa-users"></i> Authors</a></li>
 					<li><a href="features.php"><i class="fa fa-tags"></i> Features</a></li>
-					<li><a href="series.php"><i class="fa fa-link"></i> Series</a></li>
 					<li><a href="search.php"><i class="fa fa-search"></i> Search</a></li>
 				</ul>
 			</nav> <!-- cd-sec-main-nav -->
