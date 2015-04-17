@@ -35,7 +35,7 @@ year varchar(10),
 month varchar(10),
 maasa varchar(500),
 samvatsara varchar(500),
-titleid varchar(30), primary key(titleid)) ENGINE=MyISAM character set utf8 collate utf8_general_ci;");
+titleid varchar(100), primary key(titleid)) ENGINE=MyISAM character set utf8 collate utf8_general_ci;");
 $sth11r->execute();
 $sth11r->finish();
 

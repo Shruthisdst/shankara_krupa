@@ -175,7 +175,7 @@ if($num_rows > 0)
             echo '  <span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span>';
             if($row['authid'] != 0) {
 
-                echo '  <br /><span class="aAuthor itl">by ';
+                echo '  <br /><span class="aAuthor itl">&nbsp;&mdash;';
                 $authids = preg_split('/;/',$row['authid']);
                 $authornames = preg_split('/;/',$row['authorname']);
                 $a=0;

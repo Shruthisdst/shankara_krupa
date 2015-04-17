@@ -36,17 +36,38 @@ if($num_rows > 0)
 	{
 		$query3 = 'select feat_name from feature where featid=\'' . $row['featid'] . '\'';
 		$result3 = $db->query($query3); 
-		$row3 = $result3->fetch_assoc();		
+		$row3 = $result3->fetch_assoc();
 
 		$dpart = preg_replace("/^0/", "", $row['part']);
 		$dpart = preg_replace("/\-0/", "-", $dpart);
+		
+		$info = '';
+		if($row['month'] != '')
+		{
+			$info = $info . getMonth($row['month']);
+		}
+		if($row['year'] != '')
+		{
+			$info = $info . ' <span style="font-size: 0.95em">' . $row['year'] . '</span>';
+		}
+		if($row['maasa'] != '')
+		{
+			$info = $info . ', ' . $row['maasa'] . '&nbsp;ಮಾಸ';
+		}
+		if($row['samvatsara'] != '')
+		{
+			$info = $info . ', ' . $row['samvatsara'] . '&nbsp;ಸಂವತ್ಸರ';
+		}
+		$info = preg_replace("/^ /", "", $info);
+		$info = preg_replace("/^,/", "", $info);
+
 
 		if($result3){$result3->free();}
 		
 		echo '<div class="article">';
 		echo '	<div class="gapBelowSmall">';
 		echo ($row3['feat_name'] != '') ? '		<span class="aFeature clr2"><a href="feat.php?feature=' . urlencode($row3['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row3['feat_name'] . '</a></span> | ' : '';
-		echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">' . getMonth($row['month']) . ' ' . $row['year'] . '  (Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ')</a></span>';
+		echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ' <span style="font-size: 0.9em">(' . $info . ')</span></a></span>';
 		echo '	</div>';
 		echo '	<span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span>';
 		echo '</div>';

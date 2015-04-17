@@ -15,16 +15,29 @@ $dpart = preg_replace("/\-0/", "-", $dpart);
 
 $yearMonth = getYearMonth($volume, $part);
 $maasa = getmaasa($volume, $part);
+$info = '';
 
+if($yearMonth['month'] != '')
+{
+	$info = $info . getMonth($yearMonth['month']);
+}
+if($yearMonth['year'] != '')
+{
+	$info = $info . ' <span style="font-size: 0.95em">' . $yearMonth['year'] . '</span>';
+}
+if($maasa['maasa'] != '')
+{
+	$info = $info . ', ' . $maasa['maasa'] . '&nbsp;ಮಾಸ';
+}
+if($maasa['samvatsara'] != '')
+{
+	$info = $info . ', ' . $maasa['samvatsara'] . '&nbsp;ಸಂವತ್ಸರ';
+}
+$info = preg_replace("/^ /", "", $info);
+$info = preg_replace("/^,/", "", $info);
 
-if($yearMonth['month'] == '' && $yearMonth['year'] == '')
-{
-	echo '<h1 class="clr1 gapBelowSmall">Archive &gt; ' . $maasa['maasa'] . ' : ' . $maasa['samvatsara'] . ' ' . '(Volume ' . intval($volume) . ', Issue ' . $dpart . ')</h1>';
-}
-else
-{
-	echo '<h1 class="clr1 gapBelowSmall">Archive &gt; ' . getMonth($yearMonth['month']) . ' : ' . $yearMonth['year'] . ' : ' . $maasa['maasa'] . ' : ' . $maasa['samvatsara'] . ' ' . '(Volume ' . intval($volume) . ', Issue ' . $dpart . ')</h1>';
-}
+echo '<h1 class="clr1 gapBelowSmall">Archive &gt; Volume ' . intval($volume) . ', Issue ' . $dpart . ' <span style="font-size: 0.85em">(' . $info . ')</span></h1>';
+
 
 if(!(isValidVolume($volume) && isValidPart($part)))
 {
@@ -60,7 +73,7 @@ if($num_rows > 0)
 		echo '	<span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
 		if($row['authid'] != 0) {
 
-			echo '	<span class="aAuthor itl">&nbsp;&nbsp;';
+			echo '	<span class="aAuthor itl">&nbsp;&nbsp;&mdash;';
 			$authids = preg_split('/;/',$row['authid']);
 			$authornames = preg_split('/;/',$row['authorname']);
 			$a=0;
