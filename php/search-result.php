@@ -2,7 +2,7 @@
 <main class="cd-main-content">
         <div class="cd-scrolling-bg cd-color-2">
             <div class="cd-container">
-                <h1 class="clr1 gapBelowSmall">Archive &gt; Search Results</h1>
+                
 <?php
 
 include("connect.php");
@@ -143,9 +143,7 @@ $num_results = $result ? $result->num_rows : 0;
 
 if ($num_results > 0)
 {
-    echo '<div class="count">' . $num_results;
-    echo ($num_results > 1) ? ' results' : ' result';
-    echo '</div>';
+    echo '<h1 class="clr1 gapBelowSmall">ಫಲಿತಾಂಶಗಳು &#8212;' . $num_results . '</h1>';
 }
 
 $result = $db->query($query); 
@@ -161,6 +159,25 @@ if($num_rows > 0)
         
         $dpart = preg_replace("/^0/", "", $row['part']);
         $dpart = preg_replace("/\-0/", "-", $dpart);
+        $info = '';
+		if($row['month'] != '')
+		{
+			$info = $info . getMonth($row['month']);
+		}
+		if($row['year'] != '')
+		{
+			$info = $info . ' <span style="font-size: 0.95em">' . $row['year'] . '</span>';
+		}
+		if($row['maasa'] != '')
+		{
+			$info = $info . ', ' . $row['maasa'] . '&nbsp;ಮಾಸ';
+		}
+		if($row['samvatsara'] != '')
+		{
+			$info = $info . ', ' . $row['samvatsara'] . '&nbsp;ಸಂವತ್ಸರ';
+		}
+		$info = preg_replace("/^ /", "", $info);
+		$info = preg_replace("/^,/", "", $info);
         
         if($result3){$result3->free();}
 
@@ -170,12 +187,12 @@ if($num_rows > 0)
 
             echo '  <div class="gapBelowSmall">';
             echo ($row3['feat_name'] != '') ? '     <span class="aFeature clr2"><a href="feat.php?feature=' . urlencode($row3['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row3['feat_name'] . '</a></span> | ' : '';
-            echo '      <span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">' . getMonth($row['month']) . ' ' . $row['year'] . '  (Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ')</a></span>';
+            echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">ಸಂಪುಟ ' . intval($row['volume']) . ', ಸಂಚಿಕೆ ' . $dpart . ' <span style="font-size: 0.9em">(' . $info . ')</span></a></span>';
             echo '  </div>';
             echo '  <span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span>';
             if($row['authid'] != 0) {
 
-                echo '  <br /><span class="aAuthor itl">&nbsp;&mdash;';
+                echo '  <br /><span class="aAuthor">&nbsp;&mdash;';
                 $authids = preg_split('/;/',$row['authid']);
                 $authornames = preg_split('/;/',$row['authorname']);
                 $a=0;

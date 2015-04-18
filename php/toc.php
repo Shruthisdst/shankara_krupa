@@ -36,7 +36,7 @@ if($maasa['samvatsara'] != '')
 $info = preg_replace("/^ /", "", $info);
 $info = preg_replace("/^,/", "", $info);
 
-echo '<h1 class="clr1 gapBelowSmall">Archive &gt; Volume ' . intval($volume) . ', Issue ' . $dpart . ' <span style="font-size: 0.85em">(' . $info . ')</span></h1>';
+echo '<h1 class="clr1 gapBelowSmall">ಸಂಪುಟ ' . intval($volume) . ', ಸಂಚಿಕೆ ' . $dpart . ' <span style="font-size: 0.85em">(' . $info . ')</span></h1>';
 
 
 if(!(isValidVolume($volume) && isValidPart($part)))
@@ -73,7 +73,7 @@ if($num_rows > 0)
 		echo '	<span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
 		if($row['authid'] != 0) {
 
-			echo '	<span class="aAuthor itl">&nbsp;&nbsp;&mdash;';
+			echo '	<span class="aAuthor">&nbsp;&nbsp;&mdash;';
 			$authids = preg_split('/;/',$row['authid']);
 			$authornames = preg_split('/;/',$row['authorname']);
 			$a=0;

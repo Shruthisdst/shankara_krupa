@@ -29,6 +29,10 @@ function isValidTitle($title)
 {
 	return is_array($title) ? false : true;
 }
+function isValidLetter($letter)
+{
+	return is_array($letter) ? false : true;
+}
 function isValidVolume($vol)
 {
 	if(is_array($vol)){return false;}

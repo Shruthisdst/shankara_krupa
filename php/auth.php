@@ -10,7 +10,7 @@ require_once("common.php");
 if(isset($_GET['authid'])){$authid = $_GET['authid'];}else{$authid = '';}
 if(isset($_GET['author'])){$authorname = $_GET['author'];}else{$authorname = '';}
 
-echo '<h1 class="clr1 gapBelowSmall">Archive &gt; Authors &gt; ' . $authorname . '</h1>';
+echo '<h1 class="clr1 gapBelowSmall">' . $authorname . ' ರವರ ಲೇಖನಗಳು</h1>';
 
 $authorname = entityReferenceReplace($authorname);
 
@@ -67,7 +67,7 @@ if($num_rows > 0)
 		echo '<div class="article">';
 		echo '	<div class="gapBelowSmall">';
 		echo ($row3['feat_name'] != '') ? '		<span class="aFeature clr2"><a href="feat.php?feature=' . urlencode($row3['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row3['feat_name'] . '</a></span> | ' : '';
-		echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ' <span style="font-size: 0.9em">(' . $info . ')</span></a></span>';
+		echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">ಸಂಪುಟ ' . intval($row['volume']) . ', ಸಂಚಿಕೆ ' . $dpart . ' <span style="font-size: 0.9em">(' . $info . ')</span></a></span>';
 		echo '	</div>';
 		echo '	<span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span>';
 		echo '</div>';

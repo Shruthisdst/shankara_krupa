@@ -1118,7 +1118,7 @@
 				<feature></feature>
 				<page>0242-0242</page>
 				<allauthors>
-					<author type="1" title="ಸಾಹಿತ್ಯರತ್ನ">ವೆಂಕಟಾದ್ರಿಶರ್ಮ ಕಂ. ಸು. ಶ್ರೀ</author>
+					<author type="1" title="ಸಾಹಿತ್ಯರತ್ನ">ವೆಂಕಟಾದ್ರಿಶರ್ಮ ಕಂ. ಸು. ಶ್ರೀ"></author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -1221,7 +1221,7 @@
 				</allauthors>
 			</entry>
 		</part>
-		<part pnum="10-11-12" month="02-05" year="1967" maasa="" samvatsara="">
+		<part pnum="10, 11, 12" month="02-05" year="1967" maasa="" samvatsara="">
 			<entry>
 				<title>ವಿಜ್ಞಾಪನೆ</title>
 				<feature></feature>
@@ -1254,7 +1254,7 @@
 		</part>
 	</volume>
 	<volume vnum="003">
-		<part pnum="01" month="06" year="1967" maasa="ಜ್ಯೇಷ್ಠ" samvatsara="ಪ್ಲವಂಗ">
+		<part pnum="01" month="06" year="1967" maasa="ಜೇಷ್ಠ" samvatsara="ಪ್ಲವಂಗ">
 			<entry>
 				<title>ಶ್ರೀ ಶ್ರೀ ಶೃಂಗೇರಿ ಜಗದ್ಗುರುಗಳ ಸಂದೇಶ</title>
 				<feature></feature>
@@ -1328,7 +1328,7 @@
 				<allauthors />
 			</entry>
 		</part>
-		<part pnum="02" month="07" year="1967" maasa="ಆಷಾಢ" samvatsara="ಪ್ಲವಂಗ">
+		<part pnum="02" month="07" year="1967" maasa="ಆಶಾಡ" samvatsara="ಪ್ಲವಂಗ">
 			<entry>
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
@@ -3064,10 +3064,12 @@
 				</allauthors>
 			</entry>
 			<entry>
-				<title>ವೇದಾಂತ ಪರಿಚಯ</title>
+				<title>ವೇದಾಂತ ಪರಿಚಯ-೬</title>
 				<feature></feature>
 				<page>0019-0022</page>
-				<allauthors />
+				<allauthors>
+					<author type="1" title="ಸ್ವಾಮಿ">ಶಿವಾನಂದತೀರ್ಥರು ಶ್ರೀ</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>ಶಿವಗಂಗಾ ಪೀಠಾಧಿಪತಿಗಳಿಂದ ಶಿಷ್ಯಸ್ವೀಕಾರ</title>
@@ -3076,7 +3078,7 @@
 				<allauthors />
 			</entry>
 			<entry>
-				<title>ಶಾಂಕರದರ್ಶನ-೭</title>
+				<title>ಶಾಂಕರದರ್ಶನ-೮</title>
 				<feature></feature>
 				<page>0025-0032</page>
 				<allauthors>
@@ -3084,7 +3086,7 @@
 				</allauthors>
 			</entry>
 			<entry>
-				<title>ವಿವೇಕಚೂಡಾಮಣಿ-೧೨</title>
+				<title>ವಿವೇಕಚೂಡಾಮಣಿ-೧೩</title>
 				<feature></feature>
 				<page>0033-0034</page>
 				<allauthors>
@@ -3094,8 +3096,496 @@
 			<entry>
 				<title>ವಿಶೇಷ ವಿಷಯ</title>
 				<feature></feature>
-				<page>0035-00</page>
+				<page>0035-0042</page>
 				<allauthors />
+			</entry>
+		</part>
+		<part pnum="05" month="" year="" maasa="ಮಾಘ" samvatsara="ಸೌಮ್ಯ">
+			<entry>
+				<title>ಸಂಪಾದಕೀಯ</title>
+				<feature></feature>
+				<page>0003-0004</page>
+				<allauthors>
+					<author type="1" title="">ಸಂಪಾದಕರು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಕರ್ಮಫಲ</title>
+				<feature></feature>
+				<page>0005-0006</page>
+				<allauthors>
+					<author type="1" title="">ಮನೋಹರ್ ಜೀ ವ್ಯಾಸ್ ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ರಾಮಾನುಜ</title>
+				<feature></feature>
+				<page>0007-0012</page>
+				<allauthors>
+					<author type="1" title="">ಚಕ್ರವರ್ತಿ ಯಂ. ವಿ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಅಧ್ಯಾತ್ಮಶಕ್ತಿ</title>
+				<feature></feature>
+				<page>0013-0017</page>
+				<allauthors>
+					<author type="1" title="ಭಗವಾನ್">ಶ್ರೀಧರಸ್ವಾಮಿ ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಸಂಸ್ಕೃತಸುರಭಾರತೀಪುಸ್ತಕವಿಮರ್ಶೆ</title>
+				<feature></feature>
+				<page>0018-0018</page>
+				<allauthors>
+					<author type="1" title="">ಶರ್ಮಾ ಐ. ಕೆ. ಪಿ. ಡಾ||</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಉಪನಿಷದುಪದೇಶ-೪</title>
+				<feature></feature>
+				<page>0019-0022</page>
+				<allauthors>
+					<author type="1" title="ಶೃಂಗಗಿರಿ ಕವಿ">ನರಸಿಂಹಶರ್ಮಾ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ವೇದಾಂತ ಪರಿಚಯ-೭</title>
+				<feature></feature>
+				<page>0023-0024</page>
+				<allauthors>
+					<author type="1" title="ಸ್ವಾಮಿ">ಶಿವಾನಂದತೀರ್ಥರು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶಾಂಕರದರ್ಶನ-೯</title>
+				<feature></feature>
+				<page>0025-0032</page>
+				<allauthors>
+					<author type="1" title="ಪಂಡಿತಪ್ರವರ, ವಿದ್ವಾನ್">ಅನಂತಮೂರ್ತಿ ಹೆಚ್. ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ವಿವೇಕಚೂಡಾಮಣಿ-೧೪</title>
+				<feature></feature>
+				<page>0033-0036</page>
+				<allauthors>
+					<author type="1" title="ವಿದ್ವಾನ್">ಕೃಷ್ಣಜೋಯಿಸರು ಕೆ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಆಜೀವ ಸದಸ್ಯರ ಪಟ್ಟಿ</title>
+				<feature></feature>
+				<page>0037-0042</page>
+				<allauthors />
+			</entry>
+		</part>
+		<part pnum="07" month="" year="" maasa="ಚೈತ್ರ" samvatsara="ಸಾಧಾರಣ">
+			<entry>
+				<title>ಸಂಪಾದಕೀಯ</title>
+				<feature></feature>
+				<page>0003-0004</page>
+				<allauthors>
+					<author type="1" title="">ಸಂಪಾದಕರು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶ್ರೀರಾಮಸುಪ್ರಭಾತಸ್ತೋತ್ರಂ</title>
+				<feature></feature>
+				<page>0005-0006</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಶ್ರೀರಾಮಭಜನ</title>
+				<feature></feature>
+				<page>0007-0009</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಭಕ್ತಿಸಾಧನ</title>
+				<feature></feature>
+				<page>0010-0011</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಶ್ರೀರಾಮಜನನಕಾಲ</title>
+				<feature></feature>
+				<page>0012-0013</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಶ್ರೀರಾಮವನವಾಸಸಮಯಸೂಚೀ</title>
+				<feature></feature>
+				<page>0014-0016</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ರಾಮಮಹಿಮೆ</title>
+				<feature></feature>
+				<page>0017-0019</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ನವರಸರಾಮಾಯಣ</title>
+				<feature></feature>
+				<page>0020-0026</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಬ್ರಹ್ಮಕೈತಶ್ರೀರಾಮಸ್ತುತಿಃ</title>
+				<feature></feature>
+				<page>0027-0029</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ವಿಶೇಷ ವಿಷಯ</title>
+				<feature></feature>
+				<page>0030-0030</page>
+				<allauthors />
+			</entry>
+		</part>
+		<part pnum="08" month="" year="" maasa="ವೈಶಾಖ" samvatsara="ಸಾಧಾರಣ">
+			<entry>
+				<title>ಸಂಪಾದಕೀಯ</title>
+				<feature></feature>
+				<page>0003-0004</page>
+				<allauthors>
+					<author type="1" title="">ಸಂಪಾದಕರು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶ್ರೀ ಲಕ್ಷ್ಮೀನೃಸಿಂಹ ಪಂಚರತ್ನಮ್</title>
+				<feature></feature>
+				<page>0005-0008</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯರ ಸ್ತೋತ್ರಸಾಹಿತ್ಯಂ</title>
+				<feature></feature>
+				<page>0009-0016</page>
+				<allauthors>
+					<author type="1" title="">ಶಾಮಭಟ್ಟ ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಭವರೋಗವೈದ್ಯ</title>
+				<feature></feature>
+				<page>0017-0019</page>
+				<allauthors>
+					<author type="1" title="">ಶಾಮಭಟ್ಟ ಎಸ್. ವಿ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶ್ರೀ ಶಂಕರಭಗವತ್ಪಾದರು</title>
+				<feature></feature>
+				<page>0020-0024;0029-0032</page>
+				<allauthors>
+					<author type="1" title="ಶೃಂಗಗಿರಿ ಕವಿ">ನರಸಿಂಹಶರ್ಮಾ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶಾಂಕರದರ್ಶನ-೧೦</title>
+				<feature></feature>
+				<page>0025-0028</page>
+				<allauthors>
+					<author type="1" title="ಪಂಡಿತಪ್ರವರ, ವಿದ್ವಾನ್">ಅನಂತಮೂರ್ತಿ ಹೆಚ್. ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಇತರ ವಿಷಯ</title>
+				<feature></feature>
+				<page>i-vi</page>
+				<allauthors />
+			</entry>
+		</part>
+		<part pnum="09" month="" year="" maasa="ಜ್ಯೇಷ್ಠ" samvatsara="ಸಾಧಾರಣ">
+			<entry>
+				<title>ಜಗದ್ಗುರುಗಳ ಸಂದೇಶ</title>
+				<feature></feature>
+				<page>0003-0004</page>
+				<allauthors>
+					<author type="1" title="">ಜಗದ್ಗುರುಗಳು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಗುರುಮಹಿಮೆ</title>
+				<feature></feature>
+				<page>0005-0008</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀಮತಿ">ರತ್ನಮ್ಮ ಸುಂದರರಾವ್</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಪ್ರಶ್ನೋತ್ತರರತ್ನಮಾಲಿಕಾ</title>
+				<feature></feature>
+				<page>0009-0013</page>
+				<allauthors>
+					<author type="1" title="">ಭಾರದ್ವಾಜ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ವಿಸ್ಮೃತಿ</title>
+				<feature></feature>
+				<page>0014-0022</page>
+				<allauthors>
+					<author type="1" title="ಭಗವಾನ್">ಶ್ರೀಧರಸ್ವಾಮಿಗಳು ಶ್ರೀ ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶೃಂಗೇರಿಯಲ್ಲಿ ಕುಂಭಾಭಿಷೇಕ ಮತ್ತು ವಿದ್ವತ್ಸಮ್ಮೇಳನ</title>
+				<feature></feature>
+				<page>0023-0024;0041-</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಶ್ರೀ ಸುರಸರಸ್ವತೀ ಸಭಾ ನಿಯಮಾವಳಿ</title>
+				<feature></feature>
+				<page>0025-0028</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ವಿಚಿತ್ರ ದುಃಖ! ವಿಚಿತ್ರ ಚಿಕಿತ್ಸೆ!</title>
+				<feature></feature>
+				<page>0029-0035</page>
+				<allauthors>
+					<author type="1" title="">ರಾಮಚರಣಜೀ ಮಹೇಂದ್ರ್ ಶ್ರೀ ಡಾ||</author>
+					<author type="2" title="">ದಕ್ಷಿಣಾಮೂರ್ತಿ ಎಸ್. ಎಸ್. ಡಾ||</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಇತರ ವಿಷಯಗಳು</title>
+				<feature></feature>
+				<page>0036-0044</page>
+				<allauthors />
+			</entry>
+		</part>
+		<part pnum="10" month="" year="" maasa="ಆಷಾಢ" samvatsara="ಸಾಧಾರಣ">
+			<entry>
+				<title>ಸಂಪಾದಕೀಯ</title>
+				<feature></feature>
+				<page>0003-0003</page>
+				<allauthors>
+					<author type="1" title="">ಸಂಪಾದಕರು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶ್ರೀ ಸುರಸರಸ್ವತೀ ಸಭಾ</title>
+				<feature></feature>
+				<page>0004-0008</page>
+				<allauthors>
+					<author type="1" title="">ಕಾರ್ಯದರ್ಶಿ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ವೇದಾಂತ ಪರಿಚಯ-೮</title>
+				<feature></feature>
+				<page>0009-0011</page>
+				<allauthors>
+					<author type="1" title="ಸ್ವಾಮಿ">ಶಿವಾನಂದತೀರ್ಥರು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಉಪನಿಷದುಪದೇಶ-೫</title>
+				<feature></feature>
+				<page>0012-0016</page>
+				<allauthors>
+					<author type="1" title="ಶೃಂಗಗಿರಿ ಕವಿ">ನರಸಿಂಹಶರ್ಮಾ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶ್ರೀಮಚ್ಛಂಕರ ಭಗವತ್ಪಾದರು</title>
+				<feature></feature>
+				<page>0017-0020</page>
+				<allauthors>
+					<author type="1" title="">ರಾಮಾಜೋಯಿಸರು ಸಿ. ಎನ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಕಿನ್ನರೇಶ</title>
+				<feature></feature>
+				<page>0021-0024</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀಮತಿ">ರತ್ನಮ್ಮ ಸುಂದರರಾವ್</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶಾಂಕರದರ್ಶನ-೧೧</title>
+				<feature></feature>
+				<page>0025-0028</page>
+				<allauthors>
+					<author type="1" title="ಪಂಡಿತಪ್ರವರ, ವಿದ್ವಾನ್">ಅನಂತಮೂರ್ತಿ ಹೆಚ್. ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಪ್ರಶ್ನೋತ್ತರರತ್ನಮಾಲಿಕಾ</title>
+				<feature></feature>
+				<page>0029-0031</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಇತರ ವಿಷಯ</title>
+				<feature></feature>
+				<page>0032-0034</page>
+				<allauthors />
+			</entry>
+		</part>
+		<part pnum="12" month="" year="" maasa="ಭಾದ್ರಪದ" samvatsara="ಸಾಧಾರಣ">
+			<entry>
+				<title>ಶಿವಗಂಗಾಮಠದಲ್ಲಿ ವಜ್ರಮಹೋತ್ಸವ</title>
+				<feature></feature>
+				<page>0003-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಆದರ್ಶಮಾತೆ ಸೀತೆ</title>
+				<feature></feature>
+				<page>0005-0008</page>
+				<allauthors>
+					<author type="1" title="">ಕೀರ್ತಿಕುಮಾರ್ ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಪ್ರಶ್ನೋತ್ತರರತ್ನಮಾಲಿಕಾ</title>
+				<feature></feature>
+				<page>0009-0012</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಮಾತಂಗಿಯ ಮದುವೆ</title>
+				<feature></feature>
+				<page>0013-0015</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀಮತಿ">ರತ್ನಮ್ಮ ಸುಂದರರಾಯರು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಉಪನಿಷದುಪದೇಶ-೬</title>
+				<feature></feature>
+				<page>0016-0020</page>
+				<allauthors>
+					<author type="1" title="ಶೃಂಗಗಿರಿ ಕವಿ">ನರಸಿಂಹಶರ್ಮಾ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಯಾತ್ರೆಯ ಫಲ</title>
+				<feature></feature>
+				<page>0021-0026</page>
+				<allauthors>
+					<author type="1" title="">ಕೃಷ್ಣಗೋಪಾಲಜೀ ಮಾಥುರ್ ಶ್ರೀ</author>
+					<author type="2" title="">ದಕ್ಷಿಣಾಮೂರ್ತಿ ಎನ್. ಎಸ್. ಡಾ||</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಆತ್ಮ ಸಾಕ್ಷಾತ್ಕಾರ</title>
+				<feature></feature>
+				<page>0027-0028</page>
+				<allauthors>
+					<author type="1" title="ಭಗವಾನ್">ಶ್ರೀಧರಸ್ವಾಮಿಗಳು ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶಾಂಕರದರ್ಶನ-೧೨</title>
+				<feature></feature>
+				<page>0029-0032</page>
+				<allauthors>
+					<author type="1" title="ಪಂಡಿತಪ್ರವರ, ವಿದ್ವಾನ್">ಅನಂತಮೂರ್ತಿ ಹೆಚ್. ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ವಿವೇಕಚೂಡಾಮಣಿ-೧೫</title>
+				<feature></feature>
+				<page>0033-0034</page>
+				<allauthors>
+					<author type="1" title="ವಿದ್ವಾನ್">ಕೃಷ್ಣಜೋಯಿಸರು ಕೆ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಇತರ ವಿಷಯ</title>
+				<feature></feature>
+				<page>0035-0042</page>
+				<allauthors />
+			</entry>
+		</part>
+	</volume>
+	<volume vnum="006">
+		<part pnum="01" month="" year="" maasa="ಆಶ್ವಯುಜ" samvatsara="ಸಾಧಾರಣ">
+			<entry>
+				<title>ಸಂಪಾದಕೀಯ</title>
+				<feature></feature>
+				<page>0001-0001</page>
+				<allauthors>
+					<author type="1" title="">ಸಂಪಾದಕರು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಜಗದ್ಗುರು ಪಂಚರತ್ನ</title>
+				<feature></feature>
+				<page>0002-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಧರ್ಮಗುಪ್ತ</title>
+				<feature></feature>
+				<page>0005-0008</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀಮತಿ">ರತ್ನಮ್ಮ ಸುಂದರರಾಯರು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಆದರ್ಶಮಾತೆ ಸೀತೆ-೨</title>
+				<feature></feature>
+				<page>0009-0013</page>
+				<allauthors>
+					<author type="1" title="">ಕೀರ್ತಿಕುಮಾರ್ ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಆತ್ಮ ಸಾಕ್ಷಾತ್ಕಾರ-೨</title>
+				<feature></feature>
+				<page>0014-0016</page>
+				<allauthors>
+					<author type="1" title="ಭಗವಾನ್">ಶ್ರೀಧರಸ್ವಾಮಿ ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ವೇದಾಂತ ಪರಿಚಯ-೯</title>
+				<feature></feature>
+				<page>0017-0020</page>
+				<allauthors>
+					<author type="1" title="ಸ್ವಾಮಿ">ಶಿವಾನಂದ ತೀರ್ಥರು</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಉಪನಿಷದುಪದೇಶ-೭</title>
+				<feature></feature>
+				<page>0021-0024</page>
+				<allauthors>
+					<author type="1" title="ಶೃಂಗಗಿರಿ ಕವಿ">ನರಸಿಂಹಶರ್ಮಾ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಕರ್ಮವೆಂದರೇನು?</title>
+				<feature></feature>
+				<page>0025-0028</page>
+				<allauthors>
+					<author type="1" title="ವಿದ್ವಾನ್">ಕೃಷ್ಣಪ್ಪ ಬಿ. ಎಸ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶಾಂಕರದರ್ಶನ-೧೩</title>
+				<feature></feature>
+				<page>0029-0032</page>
+				<allauthors>
+					<author type="1" title="ಪಂಡಿತಪ್ರವರ, ವಿದ್ವಾನ್">ಅನಂತಮೂರ್ತಿ ಹೆಚ್. ಶ್ರೀ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ವಿವೇಕಚೂಡಾಮಣಿ-೧೫</title>
+				<feature></feature>
+				<page>0033-0034</page>
+				<allauthors>
+					<author type="1" title="ವಿದ್ವಾನ್">ಕೃಷ್ಣಜೋಯಿಸರು ಕೆ.</author>
+				</allauthors>
 			</entry>
 		</part>
 	</volume>

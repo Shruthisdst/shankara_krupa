@@ -10,7 +10,7 @@ require_once("common.php");
 if(isset($_GET['feature'])){$feat_name = $_GET['feature'];}else{$feat_name = '';}
 if(isset($_GET['featid'])){$featid = $_GET['featid'];}else{$featid = '';}
 
-echo '<h1 class="clr1 gapBelowSmall">Archive &gt; Features &gt; ' . $feat_name . '</h1>';
+echo '<h1 class="clr1 gapBelowSmall">ವಿಶೇಷ ಲೇಖನ &mdash; ' . $feat_name . '</h1>';
 
 $feat_name = entityReferenceReplace($feat_name);
 
@@ -36,15 +36,34 @@ if($num_rows > 0)
 	{
 		$dpart = preg_replace("/^0/", "", $row['part']);
 		$dpart = preg_replace("/\-0/", "-", $dpart);
+		$info = '';
+		if($row['month'] != '')
+		{
+			$info = $info . getMonth($row['month']);
+		}
+		if($row['year'] != '')
+		{
+			$info = $info . ' <span style="font-size: 0.95em">' . $row['year'] . '</span>';
+		}
+		if($row['maasa'] != '')
+		{
+			$info = $info . ', ' . $row['maasa'] . '&nbsp;ಮಾಸ';
+		}
+		if($row['samvatsara'] != '')
+		{
+			$info = $info . ', ' . $row['samvatsara'] . '&nbsp;ಸಂವತ್ಸರ';
+		}
+		$info = preg_replace("/^ /", "", $info);
+		$info = preg_replace("/^,/", "", $info);
 		
 		echo '<div class="article">';
 		echo '	<div class="gapBelowSmall">';
-		echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">' . getMonth($row['month']) . ' ' . $row['year'] . '  (Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ')</a></span>';
+		echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">ಸಂಪುಟ ' . intval($row['volume']) . ', ಸಂಚಿಕೆ ' . $dpart . ' <span style="font-size: 0.9em">(' . $info . ')</span></a></span>';
 		echo '	</div>';
 		echo '	<span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
 		if($row['authid'] != 0)
 		{
-			echo '	<span class="aAuthor itl">by ';
+			echo '	<span class="aAuthor">&nbsp;&mdash;';
 			$authids = preg_split('/;/',$row['authid']);
 			$authornames = preg_split('/;/',$row['authorname']);
 			$a=0;

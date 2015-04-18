@@ -4,10 +4,13 @@ Primary style
 
 -------------------------------- */
 @font-face {
+  font-family: Gubbi;
+  src: url('Gubbi.ttf') ;
+}
+@font-face {
  font-family: 'Siddhantaa';
  src: url('siddhanta.ttf');
 }
-
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,7 +24,7 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: Gubbi;
   color: #3d3536;
   background-color: white;
 }
@@ -132,14 +135,14 @@ Modules - reusable parts of our design
   content: "\201C";
   font-size: 120px;
   color: #7a7a7a;
-  font-family: serif;
+  font-family: Gubbi;
 }
 
 .bquoteClose:after {
   content: "\201D";
   font-size: 120px;
   color: #7a7a7a;
-  font-family: serif;
+  font-family: Gubbi;
 }
 
 .gapAbove {
@@ -429,7 +432,7 @@ Modules - reusable parts of our design
   border: 1px solid #CCCCCC;
   border-radius: 5px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: Gubbi;
   color: #555;
   outline: none;
   padding: 10px;
@@ -478,12 +481,12 @@ Main components
 }
 .cd-header #cd-logo span {
   display: inline-block;
-  padding: .6em 1em;
+  padding: .3em 1em;
   border-top: none;
   color: #3d3536;
   font-weight: bold;
   font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
 }
 @media only screen and (min-width: 930px) {
   .cd-header {
@@ -563,13 +566,14 @@ Main components
     height: auto;
     line-height: normal;
     background: transparent;
-    padding: .6em 1em;
+    padding: .5em .5em;
     border-top: none;
     color: #3d3536;
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 1px;
     font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
   }
   .no-touch .cd-main-nav a:hover {
     color: #3372df;
@@ -701,6 +705,7 @@ Main components
   font-size: 25px;
   font-weight: 300;
   line-height: 1.5;
+  font-family: "Roboto", sans-serif;
   color: white;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 } 
@@ -758,7 +763,7 @@ Main components
 }
 
 .fSan{
-  font-family: Siddhanta;
+  font-family: Gubbi;
 }
 
 .sml{
@@ -803,9 +808,10 @@ Main components
   
   .bannerHalf p {
     padding-top: 30px;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.5;
     color: black;
+	font-family: "Roboto", sans-serif;    
     font-weight: 300;
   }
 }
@@ -959,13 +965,14 @@ Secondary Navigation
     border-bottom: none;
     line-height: normal;
     background: transparent;
-    padding: 0em 1em 0 0;
+    padding: 0em 0.5em 0 0;
     border-top: none;
     color: #444;
     text-transform: uppercase;
+    letter-spacing: 1px;
     font-weight: normal;
     font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
   }
   #cd-sec-nav li a:hover {
     color: #3372df;

@@ -2,7 +2,7 @@
 <main class="cd-main-content">
         <div class="cd-scrolling-bg cd-color-2">
             <div class="cd-container">
-                <h1 class="clr1 gapBelow">Archive &gt; Search</h1>
+                <h1 class="clr1 gapBelow">ಹುಡುಕಿ</h1>
 <?php
 
 include("connect.php");
@@ -13,11 +13,11 @@ require_once("common.php");
                     <form method="get" action="search-result.php">
                         <table>
                             <tr>
-                                <td class="left"><label for="textfield2" class="titlespan">Title</label></td>
+                                <td class="left"><label for="textfield2" class="titlespan">ಲೇಖನಗಳು</label></td>
                                 <td class="right"><input name="title" type="text" class="titlespan wide" id="textfield2" maxlength="150"/></td>
                             </tr>
                             <tr>
-                                <td class="left"><label for="autocomplete" class="titlespan">Author</label></td>
+                                <td class="left"><label for="autocomplete" class="titlespan">ಲೇಖಕರು</label></td>
                                 <td class="right"><input name="author" type="text" class="titlespan wide" id="autocomplete" maxlength="150" />
 <?php
 
@@ -42,7 +42,7 @@ if($result_ac){$result_ac->free();}
 
 ?>
                             <tr>
-                                <td class="left"><label class="titlespan">Category</label></td>
+                                <td class="left"><label class="titlespan">ವಿಶೇಷ ಲೇಖನ</label></td>
                                 <td class="right">
                                     <select name="featid" class="titlespan wide">
                                         <option value="">&nbsp;</option>
@@ -71,11 +71,11 @@ if($result){$result->free();}
                                 </td>
                             </tr>
                             <tr>
-                                <td class="left"><label for="textfield3" class="titlespan">Words</label></td>
+                                <td class="left"><label for="textfield3" class="titlespan">ಪದಗಳು</label></td>
                                 <td class="right"><input name="text" type="text" class="titlespan wide" id="textfield3" maxlength="150"/></td>
                             </tr>
                             <tr>
-                                <td class="left"><label class="titlespan">Year</label></td>
+                                <td class="left"><label class="titlespan">ವರ್ಷ</label></td>
                                 <td class="right">
                                     <select name="year1" class="titlespan">
                                         <option value="">&nbsp;</option>
@@ -100,7 +100,7 @@ if($result){$result->free();}
 
 ?>
                                     </select>
-                                    <span class="clr1">&nbsp;to&nbsp;</span>
+                                    <span class="clr1">&nbsp;ರಿಂದ&nbsp;</span>
                                     <select name="year2" class="titlespan">
                                         <option value="">&nbsp;</option>
 
@@ -127,8 +127,8 @@ $db->close();
                             <tr>
                                 <td class="left">&nbsp;</td>
                                 <td class="right">
-                                    <input name="searchform" type="submit" class="clr1 med" id="button_search" value="Search"/>
-                                    <input name="resetform" type="reset" class="clr1 med" id="button_reset" value="Reset"/>
+                                    <input name="searchform" type="submit" class="clr1 med" id="button_search" value="ಹುಡುಕಿ"/>
+                                    <input name="resetform" type="reset" class="clr1 med" id="button_reset" value="ಅಳಿಸಿ"/>
                                 </td>
                             </tr>
                         </table>
