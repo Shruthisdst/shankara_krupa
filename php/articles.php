@@ -48,7 +48,7 @@
 					<span class="letter"><a href="articles.php?letter=ಸ">ಸ</a></span>
 					<span class="letter"><a href="articles.php?letter=ಹ">ಹ</a></span>
 					<span class="letter"><a href="articles.php?letter=ಳ">ಳ</a></span>
-					<span class="letter"><a href="articles.php?letter=other">Other</a></span>
+					<span class="letter"><a href="articles.php?letter=other">#</a></span>
 				</div>
 <?php
 
@@ -149,7 +149,7 @@ if($num_rows > 0)
 }
 else
 {
-	echo '<span class="sml">Sorry! No articles were found to begin with the letter \'' . $letter . '\'';
+	echo '<span class="sml">ಇಲ್ಲಿ \'' . $letter . '\' ಅಕ್ಷರದಿಂದ ಪ್ರಾರಂಭವಾಗುವ ಲೇಖನಗಳಿಲ್ಲ';
 }
 
 if($result){$result->free();}

@@ -180,6 +180,21 @@ function getMonth($month)
 	
 	return $month;
 }
+function toKannada($value)
+{
+	$value = preg_replace('/0/', '೦', $value);
+	$value = preg_replace('/1/', '೧', $value);
+	$value = preg_replace('/2/', '೨', $value);
+	$value = preg_replace('/3/', '೩', $value);
+	$value = preg_replace('/4/', '೪', $value);
+	$value = preg_replace('/5/', '೫', $value);
+	$value = preg_replace('/6/', '೬', $value);
+	$value = preg_replace('/7/', '೭', $value);
+	$value = preg_replace('/8/', '೮', $value);
+	$value = preg_replace('/9/', '೯', $value);
+	
+	return $value;
+}
 /*
 isValidTitle, isValidFeature, isValidAuthor, isValidText
 */

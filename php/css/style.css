@@ -483,10 +483,14 @@ Main components
   display: inline-block;
   padding: .3em 1em;
   border-top: none;
-  color: #3d3536;
+  color: #000;
+/*
   font-weight: bold;
-  font-size: 14px;
+*/
+  font-size: 22px;
+/*
   font-size: 1.2rem;
+*/
 }
 @media only screen and (min-width: 930px) {
   .cd-header {
@@ -548,7 +552,7 @@ Main components
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0);
-    line-height: 70px;
+    line-height: 75px;
   }
   .cd-main-nav ul.is-visible {
     -webkit-transform: translateY(0);
@@ -568,12 +572,15 @@ Main components
     background: transparent;
     padding: .5em .5em;
     border-top: none;
-    color: #3d3536;
+    color: #000;
     text-transform: uppercase;
+/*
     font-weight: bold;
+*/
+/*
     letter-spacing: 1px;
-    font-size: 14px;
-    font-size: 0.9rem;
+*/
+    font-size: 16px;
   }
   .no-touch .cd-main-nav a:hover {
     color: #3372df;
@@ -648,7 +655,7 @@ Main components
   right: 10%;
   left: auto;
   width: 50%;
-  max-width: 377px;
+  max-width: 433px;
   text-align: center;
   padding: 40px;
 }
@@ -659,7 +666,7 @@ Main components
   left: auto;
   width: 50%;
   height: 100%;
-  max-width: 377px;
+  max-width: 433px;
   text-align: right;
   min-height: 200px;
 }
@@ -680,7 +687,7 @@ Main components
 }
 
 .bgClr4{
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: #f2c472;
 }
 
@@ -764,6 +771,10 @@ Main components
 
 .fSan{
   font-family: Gubbi;
+}
+
+.fKan{
+  font-family: Gubbi !important;
 }
 
 .sml{
@@ -971,8 +982,10 @@ Secondary Navigation
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 15px;
+/*
     font-size: 0.9rem;
+*/
   }
   #cd-sec-nav li a:hover {
     color: #3372df;

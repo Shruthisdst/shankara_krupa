@@ -47,7 +47,7 @@
 					<span class="letter"><a href="authors.php?letter=ಸ">ಸ</a></span>
 					<span class="letter"><a href="authors.php?letter=ಹ">ಹ</a></span>
 					<span class="letter"><a href="authors.php?letter=ಳ">ಳ</a></span>
-					<span class="letter"><a href="authors.php?letter=other">Other</a></span>
+					<span class="letter"><a href="authors.php?letter=other">#</a></span>
 				</div> 
 <?php
 
@@ -99,7 +99,7 @@ if($num_rows > 0)
 }
 else
 {
-	echo '<span class="sml">Sorry! No author names were found to begin with the letter \'' . $letter . '\'</span>';
+	echo '<span class="sml">ಇಲ್ಲಿ \'' . $letter . '\' ಅಕ್ಷರದಿಂದ ಪ್ರಾರಂಭವಾಗುವ ಹೆಸರಿನ ಲೇಖಕರಿಲ್ಲ';
 }
 
 if($result){$result->free();}

@@ -29,7 +29,7 @@ if($num_rows > 0)
 			echo '<div class="year">';
 			$count = 1;
 		}
-		echo '<div class="clickYear aIssue" data-volume="' . $row['volume'] . '">' . $row['volume'] . '</div>';
+		echo '<div class="clickYear aIssue" data-volume="' . $row['volume'] . '">ಸಂಪುಟ ' . toKannada(intval($row['volume'])) . '</div>';
 	}
 	echo '</div>';
 }
