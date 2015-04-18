@@ -19,7 +19,7 @@ $sth_enc=$dbh->prepare("set names utf8");
 $sth_enc->execute();
 $sth_enc->finish();
 
-$sth11=$dbh->prepare("CREATE TABLE feature(feat_name varchar(200), featid int(6) auto_increment, primary key(featid))auto_increment=10001 ENGINE=MyISAM;");
+$sth11=$dbh->prepare("CREATE TABLE feature(feat_name varchar(200), featid int(6) auto_increment, primary key(featid))auto_increment=10001 ENGINE=MyISAM CHARACTER SET utf8 collate utf8_general_ci;");
 $sth11->execute();
 $sth11->finish(); 
 

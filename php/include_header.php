@@ -31,7 +31,7 @@
 				<li><a href="../index.html#home">ಮುಖಪುಟ</a></li>
 				<li><a href="../index.html#about">ಒಳನೋಟ</a></li>
 				<li><a href="../index.html#editors">ಸಂಪಾದಕರು</a></li>
-				<li><a href="../index.html#archive">ಸಂಗ್ರಹ</a> | <a href="volumes.php">ಸಂಪುಟಗಳು</a></li>
+				<li><a href="volumes.php">ಸಂಗ್ರಹ</a> | <a href="volumes.php">ಸಂಪುಟಗಳು</a></li>
 				<li><a href="#">ಸಹಾಯ</a></li>
 			</ul>
 		</nav><!-- cd-main-nav -->
