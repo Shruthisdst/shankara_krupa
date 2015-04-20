@@ -176,8 +176,8 @@ if($num_rows > 0)
 		{
 			$info = $info . ', ' . $row['samvatsara'] . '&nbsp;ಸಂವತ್ಸರ';
 		}
-		$info = preg_replace("/^ /", "", $info);
 		$info = preg_replace("/^,/", "", $info);
+		$info = preg_replace("/^ /", "", $info);
         
         if($result3){$result3->free();}
 
@@ -187,7 +187,7 @@ if($num_rows > 0)
 
             echo '  <div class="gapBelowSmall">';
             echo ($row3['feat_name'] != '') ? '     <span class="aFeature clr2"><a href="feat.php?feature=' . urlencode($row3['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row3['feat_name'] . '</a></span> | ' : '';
-            echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">ಸಂಪುಟ ' . intval($row['volume']) . ', ಸಂಚಿಕೆ ' . $dpart . ' <span style="font-size: 0.9em">(' . $info . ')</span></a></span>';
+			echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">ಸಂಪುಟ ' . toKannada(intval($row['volume'])) . ', ಸಂಚಿಕೆ ' . toKannada($dpart) . ' <span class="font_resize">(' . $info . ')</span></a></span>';
             echo '  </div>';
             echo '  <span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span>';
             if($row['authid'] != 0) {

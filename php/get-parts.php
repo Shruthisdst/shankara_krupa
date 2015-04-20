@@ -20,7 +20,9 @@ if($num_rows > 0)
 {
 	while($row = $result->fetch_assoc())
 	{
-		echo '<div class="aIssue"><a href="toc.php?vol=' . $volume . '&amp;part=' . $row['part'] . '">ಸಂ. ' . toKannada(intval($row['part'])) . '</a></div>';
+		$dpart = preg_replace("/^0/", "", $row['part']);
+		$dpart = preg_replace("/\-0/", "-", $dpart);
+		echo '<div class="aIssue"><a href="toc.php?vol=' . $volume . '&amp;part=' . $row['part'] . '">ಸಂ. ' . toKannada($dpart) . '</a></div>';
 	}
 }
 

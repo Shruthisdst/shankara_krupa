@@ -1264,3 +1264,9 @@ Secondary Navigation
     transform: scale(1);
   }
 }
+.font_size{
+	font-size: 0.95em;
+}
+.font_resize{
+	font-size: 0.9em;
+}

@@ -23,7 +23,7 @@ if($yearMonth['month'] != '')
 }
 if($yearMonth['year'] != '')
 {
-	$info = $info . ' <span style="font-size: 0.95em">' . $yearMonth['year'] . '</span>';
+	$info = $info . ' <span class="font_size">' . $yearMonth['year'] . '</span>';
 }
 if($maasa['maasa'] != '')
 {
@@ -33,10 +33,10 @@ if($maasa['samvatsara'] != '')
 {
 	$info = $info . ', ' . $maasa['samvatsara'] . '&nbsp;ಸಂವತ್ಸರ';
 }
-$info = preg_replace("/^ /", "", $info);
 $info = preg_replace("/^,/", "", $info);
+$info = preg_replace("/^ /", "", $info);
 
-echo '<h1 class="clr1 gapBelowSmall">ಸಂಪುಟ ' . intval($volume) . ', ಸಂಚಿಕೆ ' . $dpart . ' <span style="font-size: 0.85em">(' . $info . ')</span></h1>';
+echo '<h1 class="clr1 gapBelowSmall">ಸಂಪುಟ ' . toKannada(intval($volume)) . ', ಸಂಚಿಕೆ ' . toKannada($dpart) . ' <span style="font-size: 0.85em">(' . $info . ')</span></h1>';
 
 
 if(!(isValidVolume($volume) && isValidPart($part)))
