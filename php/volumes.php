@@ -13,7 +13,7 @@ $query = 'select distinct volume from article order by volume';
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
 
-$row_count = 10;
+$row_count = 8;
 $count = 0;
 $col = 1;
 

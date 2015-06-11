@@ -77,8 +77,8 @@ if($num_rows > 0)
 			$authids = preg_split('/;/',$row['authid']);
 			$authornames = preg_split('/;/',$row['authorname']);
 			$a=0;
-			foreach ($authids as $aid) {
-
+			foreach ($authids as $aid)
+			{
 				echo '<a href="auth.php?authid=' . $aid . '&amp;author=' . urlencode($authornames[$a]) . '">' . $authornames[$a] . '</a> ';
 				$a++;
 			}
