@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE shankara_krupa SYSTEM  "shankara_krupa.dtd">
+
 <shankara_krupa>
 	<volume vnum="001">
 		<part pnum="01" month="05" year="1965" maasa="ವೈಶಾಖ" samvatsara="ವಿಶ್ವಾವಸು">
@@ -340,7 +341,7 @@
 				</allauthors>
 			</entry>
 		</part>
-		<part pnum="06" month="10" year="1965" maasa="ಆಶ್ವಯುಜ'" samvatsara="ವಿಶ್ವಾವಸು">
+		<part pnum="06" month="10" year="1965" maasa="ಆಶ್ವಯುಜ" samvatsara="ವಿಶ್ವಾವಸು">
 			<entry>
 				<title>ಜಗದ್ಗುರು ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯ ಶ್ರೀಮದಭಿನವ ವಿದ್ಯಾತೀರ್ಥ ಮಹಾಸ್ವಾಮಿಗಳವರ ಶರನ್ನವರಾತ್ರಿ ಸಂದೇಶ</title>
 				<feature></feature>
@@ -353,9 +354,7 @@
 				<title>ಶ್ರೀ ದುರ್ಗಾ ಸಪ್ತಶ್ಲೋಕಿ</title>
 				<feature></feature>
 				<page>0241-0242</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ನವರಾತ್ರಿ ದೇವಿ ಪೂಜೆ</title>
@@ -369,9 +368,7 @@
 				<title>ನವರಾತ್ರಿ ಮಹಿಮೆ</title>
 				<feature></feature>
 				<page>0246-0249</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಮಾನವನ ಶಾಶ್ವತ ಸುಖ</title>
@@ -401,9 +398,7 @@
 				<title>ಶ್ರೀ ಶ್ರೀ ಶೃಂಗೇರಿ ಶ್ರೀ ಜಗದ್ಗುರು ಪರಂಪರ</title>
 				<feature></feature>
 				<page>0266-0267</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವ್ಯವಹಾರ ಮತ್ತು ವೇದಾಂತಗಳಲ್ಲಿ 'ಜ್ಞಾನ' ಮತ್ತು 'ವಿಜ್ಞಾನ' ಶಬ್ದಗಳ ಬಳಕೆ</title>
@@ -425,9 +420,7 @@
 				<title>ಸೇಲಂ ಪಟ್ಟಣದಲ್ಲಿ ನಡೆದ ಶ್ರೀ ಗಣಪತಿ ವಿದ್ವತ್ ಸದಸ್</title>
 				<feature></feature>
 				<page>0280-0283</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>Ahimsa or Universal Love in Hinduism</title>
@@ -491,9 +484,7 @@
 				<title>ಶ್ರೀ ಶಿವಗಂಗಾ ಮಠದಲ್ಲಿ ಶರನ್ನವರಾತ್ರೋತ್ಸವ</title>
 				<feature></feature>
 				<page>0349-0349</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವಿವೇಕಚೂಡಾಮಣಿ ಟೀಕಾನುವಾದ-೭</title>
@@ -525,9 +516,7 @@
 				<title>ವಿಶ್ವ ಹಿಂದೂ ಪರಿಷತ್</title>
 				<feature></feature>
 				<page>0369-0370</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಆದರ್ಶ ಮಾನವ</title>
@@ -779,9 +768,7 @@
 				<title>ನಮ್ಮದೊಂದು ಮಾತು</title>
 				<feature></feature>
 				<page>0551-0552</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶೃಂಗೇರೀ ಶಾರದಾ ಪೀಠಾಧಿಪತಿ ಶ್ರೀ ಜಗದ್ಗುರು ಶ್ರೀಮದಭಿನವ ವಿದ್ಯಾತೀರ್ಥಸ್ವಾಮಿಪಾದ ಸ್ತುತ್ಯಷ್ಟಕ</title>
@@ -1312,9 +1299,7 @@
 				<title>ವಿಜ್ಞಾಪನೆ</title>
 				<feature></feature>
 				<page>0329-0330</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸಂಭಾಷಣ ತರಂಗಿಣಿ</title>
@@ -1337,9 +1322,7 @@
 				<title>ದಕ್ಷಿಣಾಮೂರ್ತಿ ಸ್ತೋತ್ರ</title>
 				<feature></feature>
 				<page>D1-29</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 	</volume>
@@ -1357,17 +1340,13 @@
 				<title>ವಿಜ್ಞಾಪನೆ</title>
 				<feature></feature>
 				<page>0001-0002</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವಿಘ್ನೇಶ್ವರ ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0003-0003</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>"ಶ್ರೀ ಶಂಕರ ಕೃಪಾ"-ವಿಚಾರವಾಗಿ ಮತ್ತೊಂದು ಮಾತು</title>
@@ -1389,9 +1368,7 @@
 				<title>ಅಂಬಾಷ್ಟಕ</title>
 				<feature></feature>
 				<page>0013-0022</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ದೇವರು ಇದ್ದಾನೆ</title>
@@ -1421,9 +1398,7 @@
 				<title>ಶ್ರೀ ಶೃಂಗೇರಿ ಶ್ರೀ ಅಭಿನವ ವಿದ್ಯಾತೀರ್ಥ ಮಹಾಸ್ವಾಮಿಗಳ 1967ನೇ ಏಪ್ರಿಲ್ ತಿಂಗಳ ಪ್ರವಾಸ ಕಾರ್ಯಕ್ರಮದ ಟಿಪ್ಪಣಿ</title>
 				<feature></feature>
 				<page>0041-0051</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="02" month="07" year="1967" maasa="ಆಶಾಡ" samvatsara="ಪ್ಲವಂಗ">
@@ -1431,25 +1406,19 @@
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0001-0001</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವಿಜ್ಞಾಪನೆ</title>
 				<feature></feature>
 				<page>0002-0003</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸೂಚನೆ</title>
 				<feature>0004-0004</feature>
 				<page></page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯ ಕೃತ ಸೌಂದರ್ಯ ಲಹರೀ-೨</title>
@@ -1479,9 +1448,7 @@
 				<title>ಶ್ರೀ ಶೃಂಗೇರಿ ಜಗದ್ಗುರುಗಳ ಭಾರತ ಪ್ರವಾಸದ ಮುಖ್ಯಾಂಶಗಳು</title>
 				<feature></feature>
 				<page>0027-0036</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="03" month="08-09" year="1967" maasa="ಶ್ರಾವಣ-ಭಾದ್ರಪದ" samvatsara="">
@@ -1489,25 +1456,19 @@
 				<title>ವಿಜ್ಞಾಪನೆ</title>
 				<feature></feature>
 				<page>0002-0002</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0003-0003</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸೂಚನೆ</title>
 				<feature>0004-0004</feature>
 				<page></page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯ ಕೃತ ಸೌಂದರ್ಯ ಲಹರೀ-೩</title>
@@ -1553,9 +1514,7 @@
 				<title>ಶ್ರೀ ಶೃಂಗೇರಿ ಜಗದ್ಗುರುಗಳ ಭಾರತ ಪ್ರವಾಸದ ಮುಖ್ಯಾಂಶಗಳು</title>
 				<feature></feature>
 				<page>0046-0056</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="04" month="10" year="1967" maasa="ಆಶ್ವಯುಜ" samvatsara="ಪ್ಲವಂಗ">
@@ -1563,25 +1522,19 @@
 				<title>ಪ್ರಶಂಸಾಷ್ಟಕಂ</title>
 				<feature></feature>
 				<page>0001-0002</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವಿಜ್ಞಾಪನೆ</title>
 				<feature></feature>
 				<page>0003-0003</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸೂಚನೆ</title>
 				<feature></feature>
 				<page>0004-0004</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯ ಕೃತ ಸೌಂದರ್ಯ ಲಹರೀ-೪</title>
@@ -1595,9 +1548,7 @@
 				<title>ಸುಪ್ರಭಾತ ಸ್ತೋತ್ರಮ್ ಶ್ರೀ ವಿಶ್ವೇಶ್ವರ ದೀಕ್ಷಿತ ಕೃತ</title>
 				<feature></feature>
 				<page>0011-0020</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಅಯ್ಯಣ್ಣದೀಕ್ಷಿತ ವಿರಚಿತ ಶ್ರೀ ವ್ಯಾಸ ತಾತ್ಪರ್ಯ ನಿರ್ಣಯ-೨</title>
@@ -1637,25 +1588,19 @@
 				<title>ಸುಭಾಷಿತ</title>
 				<feature></feature>
 				<page>0001-0002</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವಿಜ್ಞಾಪನೆ</title>
 				<feature></feature>
 				<page>0003-0003</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸೂಚನೆ</title>
 				<feature></feature>
 				<page>0004-0004</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯ ಕೃತ ಸೌಂದರ್ಯ ಲಹರೀ-೫</title>
@@ -1711,25 +1656,19 @@
 				<title>ಸುಭಾಷಿತ</title>
 				<feature></feature>
 				<page>0001-0002</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವಿಜ್ಞಾಪನೆ</title>
 				<feature></feature>
 				<page>0003-0003</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸೂಚನೆ</title>
 				<feature></feature>
 				<page>0004-0004</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯ ಕೃತ ಸೌಂದರ್ಯ ಲಹರೀ-೬</title>
@@ -1793,17 +1732,13 @@
 				<title>ಸುಭಾಷಿತ</title>
 				<feature></feature>
 				<page>0001-0001</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸೂಚನೆ</title>
 				<feature></feature>
 				<page>0002-0002</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯ ಕೃತ ಸೌಂದರ್ಯ ಲಹರೀ-೭</title>
@@ -1883,9 +1818,7 @@
 				<title>ಸೂಚನೆ</title>
 				<feature></feature>
 				<page>0008-0008</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಗೀತಾ ಸಂದೇಶ</title>
@@ -1981,9 +1914,7 @@
 				<title>ಸದ್ಗುರುವಾಣಿ :</title>
 				<feature></feature>
 				<page>0031-0032</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="11-12" month="05-06" year="1968" maasa="ಜ್ಯೇಷ್ಠ-ಆಷಾಢ" samvatsara="ಕೀಲಕ">
@@ -1999,17 +1930,13 @@
 				<title>ಮಹಿಳೆಯರ ಕರ್ತವ್ಯ</title>
 				<feature></feature>
 				<page>0005-0007</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಷಣ್ಮತಸ್ಥಾಪನಾಚಾರ್ಯರು</title>
 				<feature></feature>
 				<page>0008-0010</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಭಗವದುಪದೇಶಾಮೃತ</title>
@@ -2039,9 +1966,7 @@
 				<title>ಸದ್ಗುರುವಾಣಿ</title>
 				<feature></feature>
 				<page>0027-0028</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 	</volume>
@@ -2067,9 +1992,7 @@
 				<title>ನಿಜಭಜನಂ</title>
 				<feature></feature>
 				<page>0008-0013</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ರುದ್ರಾಧ್ಯಾಯಃ</title>
@@ -2083,9 +2006,7 @@
 				<title>ಶ್ರೀ ಗಣೇಶ ಮಹಿಮೆ</title>
 				<feature></feature>
 				<page></page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಪುರುಷಾರ್ಥ</title>
@@ -2099,9 +2020,7 @@
 				<title>ಬ್ರಹ್ಮತತ್ವ</title>
 				<feature></feature>
 				<page>0035-0037</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವಿಶೇಷ ವಿಷಯ</title>
@@ -2173,9 +2092,7 @@
 				<title>ಮಾಯಾವಾದ</title>
 				<feature></feature>
 				<page>0038-0038</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="03" month="" year="" maasa="ಮಾರ್ಗಶಿರ" samvatsara="ಕೀಲಕ">
@@ -2239,9 +2156,7 @@
 				<title>ವಿಶೇಷವಿಷಯ</title>
 				<feature></feature>
 				<page>0037-0040</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="04" month="" year="" maasa="ಪುಷ್ಯ" samvatsara="ಕೀಲಕ">
@@ -2313,9 +2228,7 @@
 				<title>ಶ್ರೀ ಸದಾಶಿವಬ್ರಹ್ಮೇಂದ್ರ ವಿರಚಿತ ಕೀರ್ತನೆಗಳು</title>
 				<feature></feature>
 				<page>0037-0037</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="05" month="" year="" maasa="ಮಾಘ" samvatsara="ಕೀಲಕ">
@@ -2411,9 +2324,7 @@
 				<title>ಶ್ರೀ ಸದಾಶಿವಬ್ರಹ್ಮೇಂದ್ರರ ಕೃತಿ</title>
 				<feature></feature>
 				<page>0040-0040</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="06" month="" year="" maasa="ಫಾಲ್ಗುಣ" samvatsara="ಕೀಲಕ">
@@ -2493,9 +2404,7 @@
 				<title>ವಿಶೇಷ ವಿಷಯ</title>
 				<feature></feature>
 				<page>0039-0040</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="07" month="" year="" maasa="ಚೈತ್ರ" samvatsara="ಸೌಮ್ಯ">
@@ -2625,9 +2534,7 @@
 				<title>ಉಪನಿಷತ್ತಿನ ಸಾರ</title>
 				<feature></feature>
 				<page>0029-0037</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶಾರದಾಷ್ಟಕಂ</title>
@@ -2651,17 +2558,13 @@
 				<title>ಗುರುನಮಸ್ಕಾರ</title>
 				<feature></feature>
 				<page>0002-0002</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಆಚಾರ್ಯಪದಾವಲಂಬನ ಸ್ತುತಿಃ</title>
 				<feature></feature>
 				<page>0003-0004</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸಂಪಾದಕೀಯ</title>
@@ -2675,17 +2578,13 @@
 				<title>ಶ್ರೀ ಆದಿಶಂಕರರು</title>
 				<feature></feature>
 				<page>0007-0008</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಉಪನಿಷತ್ತಿನ ಸಾರ-೨</title>
 				<feature></feature>
 				<page>0009-0018</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವಿವೇಕಚೂಡಾಮಣಿ-೫</title>
@@ -2773,9 +2672,7 @@
 				<title>ಉಪನಿಷತ್ತಿನ ಸಾರ-೩</title>
 				<feature></feature>
 				<page>0021-0028</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವಿವೇಕಚೂಡಾಮಣಿ-೬</title>
@@ -2807,17 +2704,13 @@
 				<title>ಶ್ರೀ ಕೃಷ್ಣಜನ್ಮಾಷ್ಟಮಿ</title>
 				<feature></feature>
 				<page>0006-0006</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಗೋವಿಂದಾಷ್ಟಕಂ</title>
 				<feature></feature>
 				<page>0007-0008</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಕರ್ಮ ಮತ್ತು ಜ್ಞಾನ-೨</title>
@@ -2839,9 +2732,7 @@
 				<title>ಉಪನಿಷತ್ತಿನ ಸಾರ-೪</title>
 				<feature></feature>
 				<page>0021-0028</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ನಾನು ಯಾರು?-೨</title>
@@ -2882,9 +2773,7 @@
 				<title>ಶ್ರೀ ಚಂದ್ರಶೇಖರಭಾರತೀ ಗುರುವರಾಷ್ಟಕಂ</title>
 				<feature></feature>
 				<page>0007-0008</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ನಿತ್ಯಕರ್ಮ-ಅದರ ಫಲ</title>
@@ -2923,9 +2812,7 @@
 				<title>ಉಪನಿಷತ್ತಿನ ಸಾರ-೫</title>
 				<feature></feature>
 				<page>0021-0028</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶಾಂಕರದರ್ಶನ-೩</title>
@@ -2959,9 +2846,7 @@
 				<title>ಶ್ರೀ ಹನೂಮದ್ ಭುಜಂಗಪ್ರಯಾತ ಸ್ತೋತ್ರಂ</title>
 				<feature></feature>
 				<page>0002-0004</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಆಚಾರ</title>
@@ -2999,9 +2884,7 @@
 				<title>ಉಪನಿಷತ್ತಿನ ಸಾರ-೬</title>
 				<feature></feature>
 				<page>0017-0024</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶಾಂಕರದರ್ಶನ-೪</title>
@@ -3023,9 +2906,7 @@
 				<title>ವಿಶೇಷ ವಿಷಯ ಮತ್ತು ಆಜೀವ ಸದಸ್ಯರ ಪಟ್ಟಿ</title>
 				<feature></feature>
 				<page>0037-0040</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="02" month="" year="" maasa="ಕಾರ್ತಿಕ" samvatsara="ಸೌಮ್ಯ">
@@ -3041,9 +2922,7 @@
 				<title>ಆಕ್ಟಿಂಗ್ ಗೌರ್ನರ್ ಶ್ರೀ ಎ. ಆರ್. ಸೋಮನಾಥ ಅಯ್ಯರ್ ರವರ ಸಂದೇಶ</title>
 				<feature></feature>
 				<page>0003-0004</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸಂಪಾದಕೀಯ</title>
@@ -3057,17 +2936,13 @@
 				<title>ದೀಪಲಕ್ಷ್ಮೀಸ್ತುತಿ</title>
 				<feature></feature>
 				<page>0006-0008</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ವಿದ್ಯಾಗಣಪತಿ ವಿದ್ವತ್ಸಭಾ, ಶೃಂಗೇರಿ</title>
 				<feature></feature>
 				<page>0009-0012</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಉಪನಿಷದುಪದೇಶ-೨</title>
@@ -3123,9 +2998,7 @@
 				<title>ಆಚಾರ್ಯ ಸ್ತೋತ್ರ</title>
 				<feature></feature>
 				<page>0001-0002</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸಂಪಾದಕೀಯ</title>
@@ -3444,9 +3317,7 @@
 				<title>ಆಜೀವ ಸದಸ್ಯರ ಪಟ್ಟಿ</title>
 				<feature></feature>
 				<page>0037-0042</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="07" month="" year="" maasa="ಚೈತ್ರ" samvatsara="ಸಾಧಾರಣ">
@@ -3564,9 +3435,7 @@
 				<title>ಇತರ ವಿಷಯ</title>
 				<feature></feature>
 				<page>i-vi</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="09" month="" year="" maasa="ಜ್ಯೇಷ್ಠ" samvatsara="ಸಾಧಾರಣ">
@@ -4988,9 +4857,7 @@
 				<title>ಶ್ರೀಮದ್ಭಾಗವತ ಮಹಾಪುರಾಣ</title>
 				<feature></feature>
 				<page>0011-0028</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವೇದಾಂತ ಪರಿಚಯ (ಹಿಂದಿನ ಸಂಚಿಕೆಯಿಂದ)</title>
@@ -5445,17 +5312,13 @@
 				<title>ಶ್ರೀ ಸುರಸರಸ್ವತೀ ಸಭಾ (ತುರುವೇಕೆರೆ ಶಾಖೆ)</title>
 				<feature></feature>
 				<page>0033-0034</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶೃಂಗೇರಿ ಶಂಕರಮಠ, ಹೈದರಾಬಾದ್</title>
 				<feature></feature>
 				<page>0035-0036</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸಂಗ್ರಹ ರಾಮಾಯಣ (ಆಷಾಢ ಸಂಚಿಕೆಯಿಂದ)</title>
@@ -10014,9 +9877,7 @@
 				<title>ಸ್ವ-ಸ್ವ ಗುರ್ವಷ್ಟೋತ್ತರ ಶತನಾಮಾವಳಿಃ</title>
 				<feature></feature>
 				<page>0012-0013</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸನಾತನ ಧರ್ಮೋದ್ಧಾರಕ ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯರು</title>
@@ -10244,97 +10105,73 @@
 				<title>ತ್ರಿಪುರಸುಂದರೀ ವೇದಪಾದಸ್ತವ</title>
 				<feature></feature>
 				<page>0001-0001</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶೃಂಗೇರಿಜಗದ್ಗುರುಗಳವರ ಉಪದೇಶ</title>
 				<feature></feature>
 				<page>0002-0002</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಗಣೇಶ ಸ್ತುತಿ ಮಂಜರೀ</title>
 				<feature></feature>
 				<page>0003-0008</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ನಿರಂಜನಾದಿತ್ಯ ಕಿರಣ</title>
 				<feature></feature>
 				<page>0009-0010</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಪುನರ್ಜನ್ಮಗಳ ಕಥೆ</title>
 				<feature></feature>
 				<page>0011-0013</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಉಜ್ಜಯಿನಿ</title>
 				<feature></feature>
 				<page>0014-0020</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಪುರುಷಾರ್ಥಸಾಧನಂ ಕರ್ಮ ಏವ</title>
 				<feature></feature>
 				<page>0021-0032</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಹರಿಶರಣಾಷ್ಟಕ</title>
 				<feature></feature>
 				<page>0033-0036</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಹೊಸದೆಹಲಿಯಲ್ಲಿ ಶೃಂಗೇರಿ ಶ್ರೀ ಶ್ರೀ ಜಗದ್ಗುರುಗಳು</title>
 				<feature></feature>
 				<page>0037-0038</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಮಹಾಸನ್ನಿಧಾನದವರ ವರ್ಧಂತ್ಯುತ್ಸವ</title>
 				<feature></feature>
 				<page>0039-0041</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಗುಹವದನ-ಸೂಕ್ತಿಮಾಲಾ</title>
 				<feature></feature>
 				<page>0042-0042</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸಂತಹರಿದಾಸ ಠಾಕೂರ್</title>
 				<feature></feature>
 				<page>0043-00</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="11" month="" year="" maasa="ಆಷಾಢ-ಶ್ರಾವಣ" samvatsara="ಪೈಂಗಳ">
@@ -11473,9 +11310,7 @@
 				<title>ಭಕ್ತ ಮಹಾಶಯರಲ್ಲಿ ವಿಜ್ಞಾಪನೆ</title>
 				<feature></feature>
 				<page>0011-0012</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಗುರುವಂಶಕಾವ್ಯಮ್</title>
@@ -11508,9 +11343,7 @@
 				<title>ಶ್ರೀಮದಭಿನವ ವಿದ್ಯಾತೀರ್ಥ ವರ್ಣಮಾಲಾಸ್ತೋತ್ರಂ</title>
 				<feature></feature>
 				<page>0000f-0000f</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಗುರು ಸ್ತುತಿಃ</title>
@@ -12402,9 +12235,7 @@
 				<title>ಶ್ರೀ ಶೃಂಗೇರಿ ಜಗದ್ಗುರು ಶ್ರೀಮದಭಿನವ ವಿದ್ಯಾತೀರ್ಥ ಮಹಾಸ್ವಾಮಿಗಳವರ ಪಟ್ಟಾಭಿಷೇಕ ರಜತಮಹೋತ್ಸವ ಪಂಚವಿಂಶತಿ ಶ್ಲೋಕ ರತ್ನಮಾಲಿಕಾ</title>
 				<feature></feature>
 				<page>000-0004</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸತ್ಯಂ ವದ ಧರ್ಮಂ ಚರ</title>
@@ -12435,33 +12266,25 @@
 				<title>ಯೋಗಿವಿದ್ಯಾತೀರ್ಥ</title>
 				<feature></feature>
 				<page>0025-0032</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಪವಿತ್ರತಮ ತಾಣ ಶೃಂಗೇರಿ</title>
 				<feature></feature>
 				<page>0033-0035</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶಿಕ್ಷಣಪದ್ಧತಿಯಲ್ಲಿ ಸಂಸ್ಕೃತ ಭಾಷೆಯ ಸ್ಥಾನ</title>
 				<feature></feature>
 				<page>0036-0040</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಜಗದ್ಧಾತ್ರಿಯಾದ ಜಗದ್ಗುರು</title>
 				<feature></feature>
 				<page>0041-0048</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸಂಸ್ಕಾರಗಳು ಅವುಗಳ ಮಹತ್ವ ಮತ್ತು ರಹಸ್ಯ</title>
@@ -12475,9 +12298,7 @@
 				<title>ದಕ್ಷಿಣಾನ್ಮಾಯಪೀಠ</title>
 				<feature></feature>
 				<page>0053-00</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="02" month="" year="" maasa="ಕಾರ್ತಿಕ" samvatsara="ಸಿದ್ಧಾರ್ಥಿ">
@@ -12706,9 +12527,7 @@
 				<title></title>
 				<feature></feature>
 				<page>0001-0002</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಗುರುವಂಶಕಾವ್ಯಮ್</title>
@@ -13395,9 +13214,7 @@
 				<title>ಶೃಂಗೇರಿಯಲ್ಲಿ ನಡೆದ ಧರ್ಮಸಮ್ಮೇಳನ ಮತ್ತು ಸಾಹಿತ್ಯಸಮ್ಮೇಳನ</title>
 				<feature></feature>
 				<page>0034-0036</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ಶಂಕರಭಾಷ್ಯದ ಹಿರಿಮೆ</title>
@@ -13730,9 +13547,7 @@
 				<title>ಶ್ರೀ ಶ್ರೀಗಳವರ ಉಪದೇಶ</title>
 				<feature></feature>
 				<page>0002-0005</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶ್ರೀ ವರದಶಂಕರ ದಶಕಂ</title>
@@ -13859,9 +13674,7 @@
 				<title>ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯರ ಸ್ತೋತ್ರಗಳು</title>
 				<feature></feature>
 				<page>0005-0008</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ನ್ಯಾಯದರ್ಶನದಲ್ಲಿ ಪ್ರಮೇಯಗಳು</title>
@@ -15406,9 +15219,7 @@
 				<title>ಕಾಶಿಯಲ್ಲಿ ಶೃಂಗೇರಿ ಶಂಕರಮಠದಲ್ಲಿ ಶ್ರೀ ಶಂಕರ ಭಗವತ್ಪಾದರ ಜಯಂತಿ</title>
 				<feature></feature>
 				<page>0043-0043</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 		</part>
 		<part pnum="10" month="07" year="1983" maasa="ಆಷಾಢ" samvatsara="ರುಧಿರೋದ್ಗಾರಿ">
@@ -18697,9 +18508,7 @@
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0000e-0000f</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸಂಪಾದಕೀಯ</title>
@@ -18867,9 +18676,7 @@
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0000e-0000f</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಪಂಚದಶೀಸ್ತವ</title>
@@ -19195,9 +19002,7 @@
 				<title>ಪುಸ್ತಕ ಪರಿಚಯ :</title>
 				<feature></feature>
 				<page>0065-0069</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ವಿಚಾರ ತರಂಗ</title>
@@ -19229,9 +19034,7 @@
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0000e-0000f</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸುಖ-ಜಗದ್ಗುರು ಶ್ರೀ ಶ್ರೀ ಚಂದ್ರಶೇಖರ ಭಾರತೀ ಮಹಾಸ್ವಾಮಿಗಳ ಉಪದೇಶಾಮೃತ</title>
@@ -19700,9 +19503,7 @@
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0000e-0000f</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಅವಕಾಶಗಳನ್ನು ಸಾರ್ಥಕಗೊಳಿಸದಿರುವುದು-ಜಗದ್ಗುರು ಶ್ರೀ ಶ್ರೀ ಚಂದ್ರಶೇಖರ ಭಾರತೀ ಮಹಾಸ್ವಾಮಿಗಳ ಉಪದೇಶಾಮೃತ</title>
@@ -19872,9 +19673,7 @@
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0000g-0000h</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸಂಪಾದಕೀಯ</title>
@@ -20314,9 +20113,7 @@
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0000e-0000f</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಶಿಷ್ಯನಿಗೆ ಇರಬೇಕಾದ ಅರ್ಹತೆಗಳು-ಶ್ರೀ ಶ್ರೀ ಜಗದ್ಗುರು ಮಹಾಸ್ವಾಮಿಗಳ ಉಪದೇಶ</title>
@@ -20403,9 +20200,7 @@
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0000e-0000f</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ತಿಳಿಯದೇ ಮಾಡಿದ ಪಾಪಗಳಿಗೆ ಪ್ರಾಯಶ್ಚಿತ್ತ-(ಮುಂದುವರೆದುದು) ಶ್ರೀ ಶ್ರೀ ಜಗದ್ಗುರು ಮಹಾಸ್ವಾಮಿಗಳ ಉಪದೇಶ</title>
@@ -20497,9 +20292,7 @@
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
 				<page>0000e-0000f</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಸಂಪಾದಕೀಯ</title>
@@ -22456,9 +22249,7 @@
 				<title>ಗ್ರಂಥವಿಮರ್ಶೆ</title>
 				<feature></feature>
 				<page>0029-0035</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಭಗವನ್ನಾಮ ಪುಷ್ಪಾಂಜಲಿ ಮತ್ತು ಪವಮಾನ ಸೂಕ್ತಂ</title>
@@ -23308,7 +23099,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -23408,7 +23199,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -23516,7 +23307,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -23626,7 +23417,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -23736,7 +23527,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -23836,7 +23627,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -23928,7 +23719,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -24011,9 +23802,7 @@
 				<title>ವಿಚಾರಮಂಥನ-ಭಕ್ತಿಯಮಹತ್ವ</title>
 				<feature></feature>
 				<page>0037-0041</page>
-				<allauthors>
-					<author type="1" title=""></author>
-				</allauthors>
+				<allauthors />
 			</entry>
 			<entry>
 				<title>ಮಕ್ಕಳವಿಭಾಗ-ದಿಟ್ಟಪುಟ್ಟನಚಿಕೇತ</title>
@@ -24038,7 +23827,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -24156,7 +23945,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -24178,7 +23967,7 @@
 				<allauthors>
 					<author type="1" title="ಶ್ರೀಮತಿ">ಶ್ರೀಲಕ್ಷ್ಮೀ ಬಿ. ಜಿ.</author>
 				</allauthors>
-			</entry>	
+			</entry>
 			<entry>
 				<title>ಲಲಿತಾ ಸಹಸ್ರನಾಮದಲ್ಲಿ ಅದ್ವೈತ ಪ್ರತಿಪಾದನೆ</title>
 				<feature></feature>
@@ -24274,7 +24063,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -24296,7 +24085,7 @@
 				<allauthors>
 					<author type="1" title="ವಿದ್ವಾನ್">ರಂಗನಾಥಶರ್ಮ ಎನ್.</author>
 				</allauthors>
-			</entry>		
+			</entry>
 			<entry>
 				<title>ವೈರಾಗ್ಯ</title>
 				<feature></feature>
@@ -24382,7 +24171,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -24404,7 +24193,7 @@
 				<allauthors>
 					<author type="1" title="ವಿದ್ವಾನ್">ರಂಗನಾಥಶರ್ಮ ಎನ್.</author>
 				</allauthors>
-			</entry>		
+			</entry>
 			<entry>
 				<title>ಗಾಯತ್ರೀ ಪ್ರಾಶಸ್ತ್ಯ</title>
 				<feature></feature>
@@ -24490,7 +24279,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -24512,7 +24301,7 @@
 				<allauthors>
 					<author type="1" title="ವಿದ್ವಾನ್">ರಂಗನಾಥಶರ್ಮ ಎನ್.</author>
 				</allauthors>
-			</entry>	
+			</entry>
 			<entry>
 				<title>ಭಸ್ಮ ಧಾರಣವಿಧಿ</title>
 				<feature></feature>
@@ -24592,7 +24381,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -24816,7 +24605,7 @@
 				<feature></feature>
 				<page>0001-0002</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -24840,7 +24629,7 @@
 				<allauthors>
 					<author type="1" title="ವಿದ್ವಾನ್">ರಂಗನಾಥಶರ್ಮ ಎನ್.</author>
 				</allauthors>
-			</entry>	
+			</entry>
 			<entry>
 				<title>ಆಚಾರ್ಯ ಶಂಕರರ ಪ್ರಕಾರ ಕರ್ಮ ಮತ್ತು ಸಂಸಾರ</title>
 				<feature></feature>
@@ -24910,7 +24699,7 @@
 				<feature></feature>
 				<page>0001-0002</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -25036,7 +24825,7 @@
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors />
-			</entry>												
+			</entry>
 			<entry>
 				<title>ಜಗದ್ಗುರುಗಳ ಉಪದೇಶಾಮೃತ</title>
 				<feature></feature>
@@ -25060,7 +24849,7 @@
 				<allauthors>
 					<author type="1" title="ವಿದ್ವಾನ್">ರಂಗನಾಥಶರ್ಮ ಎನ್.</author>
 				</allauthors>
-			</entry>		
+			</entry>
 			<entry>
 				<title>ಸಾರ್ವಕಾಲಿಕ ಪ್ರಸ್ತುತವಾದ ಶ್ರೀ ಶಂಕರಭಗವತ್ಪಾದರ ವ್ಯಕ್ತಿತ್ವ</title>
 				<feature></feature>
@@ -25166,7 +24955,7 @@
 				<feature></feature>
 				<page>0001-0002</page>
 				<allauthors />
-			</entry>										
+			</entry>
 			<entry>
 				<title>ಭಾರತೀತೀರ್ಥ ಮಹಾಸ್ವಾಮಿಗಳ ರಚನೆಗಳು</title>
 				<feature></feature>
