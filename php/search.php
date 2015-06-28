@@ -81,56 +81,6 @@ if($result_ac){$result_ac->free();}
                             </tr>
 -->
                             <tr>
-                                <td class="left"><label class="titlespan">ವರ್ಷ</label></td>
-                                <td class="right">
-                                    <select name="year1" class="titlespan">
-                                        <option value="">&nbsp;</option>
-<?php
-
-$query = "select distinct year from article order by year";
-$result = $db->query($query);
-$num_rows = $result ? $result->num_rows : 0;
-
-if($num_rows > 0)
-{
-    for($i=1;$i<=$num_rows;$i++)
-    {
-        $row = $result->fetch_assoc();
-
-        $year=$row['year'];
-        echo "<option value=\"$year\">" . $year . "</option>";
-    }
-}
-
-if($result){$result->free();}
-
-?>
-                                    </select>
-                                    <span class="clr1">&nbsp;ಇಂದ&nbsp;</span>
-                                    <select name="year2" class="titlespan">
-                                        <option value="">&nbsp;</option>
-
-<?php
-$result = $db->query($query);
-$num_rows = $result ? $result->num_rows : 0;
-
-if($num_rows > 0)
-{
-    for($i=1;$i<=$num_rows;$i++)
-    {
-        $row = $result->fetch_assoc();
-
-        $year=$row['year'];
-        echo "<option value=\"$year\">" . $year . "</option>";
-    }
-}
-if($result){$result->free();}
-$db->close();
-?>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
                                 <td class="left">&nbsp;</td>
                                 <td class="right">
                                     <input name="searchform" type="submit" class="clr1 med" id="button_search" value="ಹುಡುಕಿ"/>
