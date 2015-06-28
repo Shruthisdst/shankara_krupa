@@ -12,15 +12,15 @@ if(isset($_GET['author'])){$author = $_GET['author'];}else{$author = '';}
 if(isset($_GET['text'])){$text = $_GET['text'];}else{$text = '';}
 if(isset($_GET['title'])){$title = $_GET['title'];}else{$title = '';}
 if(isset($_GET['featid'])){$featid = $_GET['featid'];}else{$featid = '';}
-if(isset($_GET['year1'])){$year1 = $_GET['year1'];}else{$year1 = '';}
-if(isset($_GET['year2'])){$year2 = $_GET['year2'];}else{$year2 = '';}
+//~ if(isset($_GET['year1'])){$year1 = $_GET['year1'];}else{$year1 = '';}
+//~ if(isset($_GET['year2'])){$year2 = $_GET['year2'];}else{$year2 = '';}
 
 $text = entityReferenceReplace($text);
 $author = entityReferenceReplace($author);
 $title = entityReferenceReplace($title);
 $featid = entityReferenceReplace($featid);
-$year1 = entityReferenceReplace($year1);
-$year2 = entityReferenceReplace($year2);
+//~ $year1 = entityReferenceReplace($year1);
+//~ $year2 = entityReferenceReplace($year2);
 
 $author = preg_replace("/[,\-]+/", " ", $author);
 $author = preg_replace("/[\t]+/", " ", $author);
@@ -48,26 +48,26 @@ $text = preg_replace("/  /", " ", $text);
 
 if($title=='')
 {
-    $title='[a-z]*';
+    $title='.*';
 }
 if($author=='')
 {
-    $author='[a-z]*';
+    $author='.*';
 }
 if($featid=='')
 {
-    $featid='[a-z]*';
+    $featid='.*';
 }
 
-($year1 == '') ? $year1 = 1914 : $year1 = $year1;
-($year2 == '') ? $year2 = date('Y') : $year2 = $year2;
-
-if($year2 < $year1)
-{
-    $tmp = $year1;
-    $year1 = $year2;
-    $year2 = $tmp;
-}
+//~ ($year1 == '') ? $year1 = 1111 : $year1 = $year1;
+//~ ($year2 == '') ? $year2 = 9999 : $year2 = $year2;
+//~ 
+//~ if($year2 < $year1)
+//~ {
+    //~ $tmp = $year1;
+    //~ $year1 = $year2;
+    //~ $year2 = $tmp;
+//~ }
 
 $authorFilter = '';
 $titleFilter = '';
@@ -91,12 +91,10 @@ $titleFilter = preg_replace("/ $/", "", $titleFilter);
 if($text=='')
 {
     $query="SELECT * FROM
-                (SELECT * FROM
-                    (SELECT * FROM
-                        (SELECT * FROM article WHERE $authorFilter) AS tb1
-                    WHERE $titleFilter) AS tb2
-                WHERE featid REGEXP '$featid') AS tb3
-            WHERE year between $year1 and $year2 ORDER BY volume, part, page";
+				(SELECT * FROM
+					(SELECT * FROM article WHERE $authorFilter) AS tb1
+				WHERE $titleFilter) AS tb2
+			WHERE featid REGEXP '$featid' ORDER BY volume, part, page";
 
 }
 elseif($text!='')
