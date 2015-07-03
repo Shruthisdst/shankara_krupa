@@ -3,6 +3,7 @@
 	exec('find ../ReadWrite/ -mmin +10 -type f -name "*.pdf" -exec rm {} \;');
 	$downloadURL = '../index.php';
 	$titleid = $_GET['titleid'];
+	//~ $titleid = 'shankara_krupa_005_08_0020-0024;0029-0032_0';
 	if(isset($_GET['titleid']) && $_GET['titleid'] != "")
 	{
 		include("connect.php");
@@ -10,19 +11,30 @@
 		$volume = $vars[2];
 		$part = $vars[3];
 		$page = $vars[4];
-		$page_end = $vars[5];
+		$str = '';
+		$pageRangeList = preg_split('/;/',$page);
+		$page = '';
+		
+		for($i = 0; $i < count($pageRangeList); $i++)
+		{
+			$pageRange = preg_split('/-/',$pageRangeList[$i]);
+			$str .= "'".$pageRange[0]."' and '".$pageRange[1]."' or cur_page between ";
+			$page .= $pageRange[0] . '_' . $pageRange[1] . '_';
+		}
+		$str = preg_replace("/ or cur_page between $/", "" ,$str);
 		$pdfList = '';
-		$query1 = "select cur_page from ocr where volume = '$volume' and part = '$part' and cur_page between '$page' and '$page_end'";
-		$result1 = $db->query($query1) or die("query problem"); 
+		$query1 = "select cur_page from ocr where volume = '$volume' and part = '$part' and (cur_page between $str)";
 		echo $query1;
+		$result1 = $db->query($query1) or die("query problem"); 
+		
 		while($row = $result1->fetch_assoc())
 		{
 			$pdfList .= '../Volumes/pdf/' . $volume . '/' . $part . '/' . $row["cur_page"] . '.pdf ';
 		}
 		
-		$downloadURL = '../ReadWrite/Shankara_Krupa_' . $volume . '_' . $part . '_' . $page . '-'.$page_end. '.pdf';
+		$downloadURL = '../ReadWrite/Shankara_Krupa_' . $volume . '_' . $part . '_' . $page . '.pdf';
 		system ('pdftk ' . $pdfList . ' cat output ' . $downloadURL);
-		//~ echo 'pdftk ' . $pdfList . ' cat output ' . $downloadURL;
+		echo 'pdftk ' . $pdfList . ' cat output ' . $downloadURL;
 	}
 	@header("Location: $downloadURL");
 ?>
