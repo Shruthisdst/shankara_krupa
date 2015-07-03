@@ -198,7 +198,7 @@ if($num_rows > 0)
                 $a=0;
                 foreach ($authids as $aid) {
 
-                    echo '<a href="auth.php?authid=' . $aid . '&amp;author=' . urlencode($authornames[$a]) . '">' . $authornames[$a] . '</a> ';
+                    echo '<a class="delim" href="auth.php?authid=' . $aid . '&amp;author=' . urlencode($authornames[$a]) . '">' . $authornames[$a] . '</a> ';
                     $a++;
                 }
 

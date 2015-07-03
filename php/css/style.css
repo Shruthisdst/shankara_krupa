@@ -1270,3 +1270,8 @@ Secondary Navigation
 .font_resize{
 	font-size: 0.9em;
 }
+.delim:not(:last-child):after{
+	content: " | ";
+	color: #777;
+	margin: 0 10px;
+}
