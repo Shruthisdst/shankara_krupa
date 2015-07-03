@@ -27,8 +27,7 @@ $sth11r=$dbh->prepare("CREATE TABLE article(title varchar(500),
 authid varchar(200),
 authorname varchar(1000),
 featid varchar(10),
-page varchar(10), 
-page_end varchar(10), 
+page varchar(50), 
 volume varchar(3),
 part varchar(10),
 year varchar(10), 
@@ -69,26 +68,18 @@ while($line)
 	}
 	elsif($line =~ /<page>(.*)<\/page>/)
 	{
-		$pages = $1;
-		($page, $page_end) = split(/-/, $pages);
-		if($pages eq $prev_pages)
+		$page = $1;
+		if($page eq $prev_pages)
 		{
 			$count++;
-			$id = "shankara_krupa_" . $volume . "_" . $part . "_" . $page . "_" . $page_end . "_" . $count; 
+			$id = "shankara_krupa_" . $volume . "_" . $part . "_" . $page . "_" . $count; 
 		}
 		else
 		{
-			$id = "shankara_krupa_" . $volume . "_" . $part . "_" . $page . "_" . $page_end . "_0";
+			$id = "shankara_krupa_" . $volume . "_" . $part . "_" . $page . "_0";
 			$count = 0;
 		}
-		$prev_pages = $pages;
-		if($page_end)
-		{
-		} 
-		else
-		{
-			$page_end = $page;
-		}
+		$prev_pages = $page;
 	}
 	elsif($line =~ /<author type="(.*)" title="(.*)">(.*)<\/author>/)
 	{
@@ -103,7 +94,7 @@ while($line)
 	}
 	elsif($line =~ /<\/entry>/)
 	{
-		insert_article($title,$authids,$author_name,$featid,$page,$page_end,$volume,$part,$year,$month,$maasa,$samvatsara,$id);
+		insert_article($title,$authids,$author_name,$featid,$page,$volume,$part,$year,$month,$maasa,$samvatsara,$id);
 		$authids = "";
 		$featid = "";
 		$author_name = "";
@@ -117,7 +108,7 @@ $dbh->disconnect();
 
 sub insert_article()
 {
-	my($title,$authids,$author_name,$featid,$page,$page_end,$volume,$part,$year,$month,$maasa,$samvatsara,$id) = @_;
+	my($title,$authids,$author_name,$featid,$page,$volume,$part,$year,$month,$maasa,$samvatsara,$id) = @_;
 	my($sth1);
 
 	$title =~ s/'/\\'/g;
@@ -125,7 +116,7 @@ sub insert_article()
 	$author_name =~ s/^;//;
 	$author_name =~ s/'/\\'/g;
 	
-	$sth1=$dbh->prepare("insert into article values('$title','$authids','$author_name','$featid','$page','$page_end','$volume','$part','$year','$month','$maasa','$samvatsara','$id')");
+	$sth1=$dbh->prepare("insert into article values('$title','$authids','$author_name','$featid','$page','$volume','$part','$year','$month','$maasa','$samvatsara','$id')");
 	
 	$sth1->execute();
 	$sth1->finish();
