@@ -22,9 +22,10 @@
 			$page .= $pageRange[0] . '_' . $pageRange[1] . '_';
 		}
 		$str = preg_replace("/ or cur_page between $/", "" ,$str);
+		$page = preg_replace("/_$/", "" ,$page);
 		$pdfList = '';
 		$query1 = "select cur_page from ocr where volume = '$volume' and part = '$part' and (cur_page between $str)";
-		echo $query1;
+		
 		$result1 = $db->query($query1) or die("query problem"); 
 		
 		while($row = $result1->fetch_assoc())
