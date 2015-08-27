@@ -65,13 +65,14 @@ if($num_rows > 0)
 		$titleid = $row['titleid'];
 		$dpart = preg_replace("/^0/", "", $row['part']);
 		$dpart = preg_replace("/\-0/", "-", $dpart);
-		
+		$sumne = preg_split('/-/' , $row['page']);
+		$row['page'] = $sumne[0];
 		if($result3){$result3->free();}
 
 		echo '<div class="article">';
 		echo ($row3['feat_name'] != '') ? '<div class="gapBelowSmall"><span class="aFeature clr2"><a href="feat.php?feature=' . urlencode($row3['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row3['feat_name'] . '</a></span></div>' : '';
-		//~ echo '	<span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
-		echo '	<span class="aTitle"><a href="downloadPdf.php?titleid='.$titleid.'" target="_blank">' . $row['title'] . '</a></span><br />';
+		echo '	<span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
+		//~ echo '	<span class="aTitle"><a href="downloadPdf.php?titleid='.$titleid.'" target="_blank">' . $row['title'] . '</a></span><br />';
 		if($row['authid'] != 0) {
 
 			echo '	<span class="aAuthor">&nbsp;&nbsp;&mdash;';
