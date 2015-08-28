@@ -109,7 +109,7 @@ if($num_rows > 0)
 		}
 		if($row['year'] != '')
 		{
-			$info = $info . ' <span class="font_size">' . $row['year'] . '</span>';
+			$info = $info . ' <span class="font_size">' . toKannada(intval($row['year'])) . '</span>';
 		}
 		if($row['maasa'] != '')
 		{

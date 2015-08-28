@@ -23,7 +23,7 @@ if($yearMonth['month'] != '')
 }
 if($yearMonth['year'] != '')
 {
-	$info = $info . ' <span class="font_size">' . $yearMonth['year'] . '</span>';
+	$info = $info . ' <span class="font_size">' . toKannada(intval($yearMonth['year'])) . '</span>';
 }
 if($maasa['maasa'] != '')
 {
