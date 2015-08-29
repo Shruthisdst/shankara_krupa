@@ -115,6 +115,9 @@ sub insert_article()
 	$authids =~ s/^;//;
 	$author_name =~ s/^;//;
 	$author_name =~ s/'/\\'/g;
+	$maasa =~ s/'/\\'/g;
+	$samvatsara =~ s/'/\\'/g;
+
 	
 	$sth1=$dbh->prepare("insert into article values('$title','$authids','$author_name','$featid','$page','$volume','$part','$year','$month','$maasa','$samvatsara','$id')");
 	

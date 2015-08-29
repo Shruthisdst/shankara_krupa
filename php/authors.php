@@ -19,6 +19,7 @@
 					<span class="letter"><a href="authors.php?letter=ಔ">ಔ</a></span>
 					<span class="letter"><a href="authors.php?letter=ಕ">ಕ</a></span>
 					<span class="letter"><a href="authors.php?letter=ಖ">ಖ</a></span>
+					<span class="letter"><a href="authors.php?letter=ಗ">ಗ</a></span>
 					<span class="letter"><a href="authors.php?letter=ಘ">ಘ</a></span>
 					<span class="letter"><a href="authors.php?letter=ಚ">ಚ</a></span>
 					<span class="letter"><a href="authors.php?letter=ಛ">ಛ</a></span>
