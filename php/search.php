@@ -1,4 +1,6 @@
 <?php include("include_header.php");?>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="js/input_method.js"></script>
 <main class="cd-main-content">
         <div class="cd-scrolling-bg cd-color-2">
             <div class="cd-container">

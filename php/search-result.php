@@ -141,7 +141,7 @@ $num_results = $result ? $result->num_rows : 0;
 
 if ($num_results > 0)
 {
-    echo '<h1 class="clr1 gapBelowSmall">ಫಲಿತಾಂಶಗಳು : ' . $num_results . '</h1>';
+    echo '<h1 class="clr1 gapBelowSmall">ಫಲಿತಾಂಶ(ಗಳು) - ' . toKannada(intval($num_results)) . '</h1>';
 }
 
 $result = $db->query($query); 
@@ -165,7 +165,7 @@ if($num_rows > 0)
 		}
 		if($row['year'] != '')
 		{
-			$info = $info . ' <span style="font-size: 0.95em">' . $row['year'] . '</span>';
+			$info = $info . ' <span style="font-size: 0.95em">' . toKannada(intval($row['year'])) . '</span>';
 		}
 		if($row['maasa'] != '')
 		{
@@ -189,8 +189,9 @@ if($num_rows > 0)
             echo ($row3['feat_name'] != '') ? '     <span class="aFeature clr2"><a href="feat.php?feature=' . urlencode($row3['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row3['feat_name'] . '</a></span> | ' : '';
 			echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">ಸಂಪುಟ ' . toKannada(intval($row['volume'])) . ', ಸಂಚಿಕೆ ' . toKannada($dpart) . ' <span class="font_resize">(' . $info . ')</span></a></span>';
             echo '  </div>';
-            //~ echo '  <span class="aTitle"><a target="_blank" href="downloadPdf.php?titleid='.$titleid.'">' . $row['title'] . '</a></span>';
-            echo '  <span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span>';
+            echo '	<span class="aTitle"><a target="_blank" href="bookReader.php?volume=' . $row['volume'] . '&amp;part=' . $row['part'] . '&amp;page=' . $row['page'] . '">' . $row['title'] . '</a></span>';
+			//~ DJVU link
+			//~ echo '	<span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
             if($row['authid'] != 0) {
 
                 echo '  <br /><span class="aAuthor">&nbsp;&mdash;';
@@ -205,15 +206,16 @@ if($num_rows > 0)
 
                 echo '  </span>';
             }
-            if($text != '')
-            {
-                echo '<br /><span class="aIssue">Text match found at page(s) : </span>';
-                echo '<span class="aIssue"><a href="downloadPdf.php?titleid='.$titleid.'" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
-            }
+            //~ if($text != '')
+            //~ {
+                //~ echo '<br /><span class="aIssue">Text match found at page(s) : </span>';
+                //~ echo '<span class="aIssue"><a href="downloadPdf.php?titleid='.$titleid.'" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
+            //~ }
+            echo '<br/><span class="downloadspan"><a href="downloadPdf.php?titleid='.$titleid.'" target="_blank">ಡೌನ್ಲೋಡ್ ಪಿಡಿಎಫ್</a> </span>';
             $id = $row['titleid'];
         }
-        else {
-
+        else 
+        {
             if($text != '')
             {
                 echo '&nbsp;<span class="aIssue"><a href="downloadPdf.php?titleid='.$titleid.'">' . intval($row['cur_page']) . '</a> </span>';
