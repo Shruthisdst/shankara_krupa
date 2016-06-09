@@ -1293,7 +1293,7 @@
 				</allauthors>
 			</entry>
 		</part>
-		<part pnum="10, 11, 12" month="02-05" year="1967" maasa="ಮಾಘ-ಫಾಲ್ಗುಣ-ಚೈತ್ರ-ವೈಶಾಖ" samvatsara="ಪರಾಭವ-ಪ್ಲವಂಗ">
+		<part pnum="10-12" month="02-05" year="1967" maasa="ಮಾಘ-ಫಾಲ್ಗುಣ-ಚೈತ್ರ-ವೈಶಾಖ" samvatsara="ಪರಾಭವ-ಪ್ಲವಂಗ">
 			<entry>
 				<title>ವಿಜ್ಞಾಪನೆ</title>
 				<feature></feature>
@@ -18264,7 +18264,7 @@
 				</allauthors>
 			</entry>
 		</part>
-		<part pnum="09-10-11" month="06-07-08" year="1987" maasa="ಜ್ಯೇಷ್ಠ-ಆಷಾಢ-ಶ್ರಾವಣ" samvatsara="ಪ್ರಭವ">
+		<part pnum="09-11" month="06-08" year="1987" maasa="ಜ್ಯೇಷ್ಠ-ಆಷಾಢ-ಶ್ರಾವಣ" samvatsara="ಪ್ರಭವ">
 			<entry>
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
@@ -18537,7 +18537,7 @@
 		</part>
 	</volume>
 	<volume vnum="023">
-		<part pnum="01-02-03" month="10-11-12" year="1987" maasa="ಆಶ್ವಯುಜ, ಕಾರ್ತಿಕ, ಮಾರ್ಗಶಿರ" samvatsara="ಪ್ರಭವ">
+		<part pnum="01-03" month="10-12" year="1987" maasa="ಆಶ್ವಯುಜ, ಕಾರ್ತಿಕ, ಮಾರ್ಗಶಿರ" samvatsara="ಪ್ರಭವ">
 			<entry>
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
@@ -18654,7 +18654,7 @@
 				<allauthors />
 			</entry>
 		</part>
-		<part pnum="04-05-06" month="01-02-03" year="1988" maasa="ಪುಷ್ಯ-ಮಾಘ-ಫಾಲ್ಗುಣ" samvatsara="ಪ್ರಭವ">
+		<part pnum="04-06" month="01-03" year="1988" maasa="ಪುಷ್ಯ-ಮಾಘ-ಫಾಲ್ಗುಣ" samvatsara="ಪ್ರಭವ">
 			<entry>
 				<title>ಸಂಪಾದಕೀಯ</title>
 				<feature></feature>
@@ -18788,7 +18788,7 @@
 				</allauthors>
 			</entry>
 		</part>
-		<part pnum="07-08-09" month="04-05-06" year="1988" maasa="ಚೈತ್ರ-ವೈಶಾಖ-ಜೇಷ್ಠ" samvatsara="ವಿಭವ">
+		<part pnum="07-09" month="04-06" year="1988" maasa="ಚೈತ್ರ-ವೈಶಾಖ-ಜೇಷ್ಠ" samvatsara="ವಿಭವ">
 			<entry>
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
@@ -18956,7 +18956,7 @@
 				<allauthors />
 			</entry>
 		</part>
-		<part pnum="10-11-12" month="07-08-09" year="1988" maasa="ಆಷಾಢ-ಶ್ರಾವಣ-ಭಾದ್ರಪದ" samvatsara="ಪ್ರಭವ">
+		<part pnum="10-12" month="07-09" year="1988" maasa="ಆಷಾಢ-ಶ್ರಾವಣ-ಭಾದ್ರಪದ" samvatsara="ಪ್ರಭವ">
 			<entry>
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
@@ -19105,7 +19105,7 @@
 		</part>
 	</volume>
 	<volume vnum="024">
-		<part pnum="01-02-03" month="10-11-12" year="1988" maasa="ಆಶ್ವಯುಜ-ಕಾರ್ತಿಕ-ಮಾರ್ಗಶಿರ" samvatsara="ವಿಭವ">
+		<part pnum="01-03" month="10-12" year="1988" maasa="ಆಶ್ವಯುಜ-ಕಾರ್ತಿಕ-ಮಾರ್ಗಶಿರ" samvatsara="ವಿಭವ">
 			<entry>
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
@@ -23219,7 +23219,174 @@
 		</part>
 	</volume>
 	<volume vnum="029">
-		<part pnum="03" month="12" year="1992" maasa="ಮಾರ್ಗಶೀರ್ಷ" samvatsara="ಆಂಗೀರಸ">
+		<part pnum="01" month="10" year="1992" maasa="ಆಶ್ವಯುಜ" samvatsara="ಆಂಗೀರಸ">
+			<entry>
+				<title>ಪ್ರಾರ್ಥನೆ</title>
+				<feature></feature>
+				<page>0000e-0000e</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಸಂಪಾದಕೀಯ</title>
+				<feature></feature>
+				<page>0000f-0000f</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಶ್ರೀ ರುದ್ರದ ಹಿರಿಮೆ - ಶ್ರೀ ಶ್ರೀ ಜಗದ್ಗುರು ಮಹಾಸ್ವಾಮಿಗಳ ಉಪದೇಶಾಮೃತ</title>
+				<feature></feature>
+				<page>0001-0006</page>
+				<allauthors>
+					<author type="2" title="">ವೆಂಕಟರಮಣನ್, ಡಿ. ಆರ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಉಪನಿಷದ್ದರ್ಶನ</title>
+				<feature></feature>
+				<page>0007-0011</page>
+				<allauthors>
+					<author type="1" title="ವಿದ್ವಾನ್">ಶೇಷಾಚಲ ಶರ್ಮಾ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಅದ್ವೈತ ವೇದಾಂತದ ಕೆಲವು ಮಹಾಪುರುಷರು-4</title>
+				<feature></feature>
+				<page>0013-0021</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀ ಎದುರ್ಕುಲ">ಶಂಕರನಾರಾಯಣ ಭಟ್ಟ, ಕೆ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ವಿದ್ಯಾರಣ್ಯ ಮತ್ತು ಸಾಯಣಾಚಾರ್ಯ</title>
+				<feature></feature>
+				<page>0023-0026</page>
+				<allauthors>
+					<author type="1" title="ಡಾ||">ನರಸಿಂಹಮೂರ್ತಿ, ಎಂ. ಎಲ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಜಗದ್ಗುರು ಶ್ರೀಮಚ್ಛಂಕರಾಚಾರ್ಯರೂ ಸೌಂದರ್ಯಲಹರಿಯು</title>
+				<feature></feature>
+				<page>0027-0032</page>
+				<allauthors>
+					<author type="1" title="ವಿದ್ವಾನ್">ಭಾಸ್ಕರಭಟ್ಟ, ಕೆ. ಎಸ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಯಜ್ಞ ಮತ್ತು ದಾನ</title>
+				<feature></feature>
+				<page>0033-0038</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀ">ನರಸಿಂಹಮೂರ್ತಿ, ಹೆಚ್. ವಿ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಗೀತಾ ತತ್ತ್ವ ಚಿಂತನ</title>
+				<feature></feature>
+				<page>0039-0041</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರದ್ಧೇಯ ಸ್ವಾಮಿ">ರಾಮ ಸುಖದಾಸ್‌ಜೀ ಮಹಾರಾಜ್</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶ್ರೀ ರಾಮಾಯಣ - ಒಂದು ಅಧ್ಯಯನ</title>
+				<feature></feature>
+				<page>0043-0047</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀಮತಿ">ಶ್ರೀಮತೀ, ಡಿ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಗ್ರಂಥ ಪರಿಚಯ</title>
+				<feature></feature>
+				<page>0049-0050</page>
+				<allauthors>
+					<author type="1" title="">ರಾಮಚಂದ್ರ ಶಾಸ್ತ್ರೀ, ಎಸ್.</author>
+				</allauthors>
+			</entry>
+		</part>
+		<part pnum="02" month="11" year="1992" maasa="ಕಾರ್ತೀಕ" samvatsara="ಆಂಗೀರಸ">
+			<entry>
+				<title>ಪ್ರಾರ್ಥನೆ</title>
+				<feature></feature>
+				<page>0000e-0000e</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ನಮೋ ಶಂಕರಭಗವತ್ಪಾದ</title>
+				<feature></feature>
+				<page>0000f-0000f</page>
+				<allauthors>
+					<author type="1" title="ವಿದ್ವಾನ್">ಶಂಕರನಾರಾಯಣ ಭಟ್ಟ, ಎಂ. ಕೆ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶ್ರೀ ರುದ್ರದ ಹಿರಿಮೆ - ಶ್ರೀ ಶ್ರೀ ಜಗದ್ಗುರು ಮಹಾಸ್ವಾಮಿಗಳ ಉಪದೇಶಾಮೃತ</title>
+				<feature></feature>
+				<page>0001-0007</page>
+				<allauthors>
+					<author type="2" title="">ವೆಂಕಟರಮಣನ್, ಡಿ. ಆರ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಅದ್ವೈತ ಸಿದ್ಧಾಂತವೇನು?</title>
+				<feature></feature>
+				<page>0009-0016</page>
+				<allauthors>
+					<author type="1" title="">ಶಂಕರಕಿಂಕರಃ</author>
+					<author type="2" title="ಶ್ರೀಮತಿ">ಶ್ರೀಲಕ್ಷ್ಮೀ, ಬಿ. ಜಿ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಜಗದ್ಗುರು ಶ್ರೀಮಚ್ಛಂಕರಾಚಾರ್ಯರೂ ಸೌಂದರ್ಯಲಹರಿಯೂ</title>
+				<feature></feature>
+				<page>0017-0022</page>
+				<allauthors>
+					<author type="1" title="ವಿದ್ವಾನ್">ಭಾಸ್ಕರಭಟ್ಟ, ಕೆ. ಎಸ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ವಿದ್ಯಾರಣ್ಯ ಮತ್ತು ಸಾಯಣಾಚಾರ್ಯ</title>
+				<feature></feature>
+				<page>0023-0026</page>
+				<allauthors>
+					<author type="1" title="ಡಾ||">ನರಸಿಂಹಮೂರ್ತಿ, ಎಂ. ಎಲ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಸಂಸ್ಕೃತ ನಮಗೆಷ್ಟು ಅನಿವಾರ್ಯ</title>
+				<feature></feature>
+				<page>0027-0032</page>
+				<allauthors>
+					<author type="1" title="">ನರಸಿಂಹಮೂರ್ತಿ, ಹೆಚ್. ವಿ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಬ್ರಾಹ್ಮಣ ಧರ್ಮ</title>
+				<feature></feature>
+				<page>0033-0034</page>
+				<allauthors>
+					<author type="1" title="">ವೆಂಕಟೇಶ್, ಆರ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶ್ರೀ ರಾಮಾಯಣ - ಒಂದು ಅಧ್ಯಯನ</title>
+				<feature></feature>
+				<page>0035-0038</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀಮತಿ">ಶ್ರೀಮತೀ, ಡಿ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಗ್ರಂಥ ಪರಿಚಯ</title>
+				<feature></feature>
+				<page>0039-0039</page>
+				<allauthors>
+					<author type="1" title="">ರಾಮಚಂದ್ರ ಶಾಸ್ತ್ರೀ, ಎಸ್.</author>
+				</allauthors>
+			</entry>
+		</part>
+		<part pnum="03" month="12" year="1992" maasa="ಮಾರ್ಗಶಿರ" samvatsara="ಆಂಗೀರಸ">
 			<entry>
 				<title>ಪ್ರಾರ್ಥನೆ</title>
 				<feature></feature>
@@ -23623,6 +23790,77 @@
 				<page>0031-0034</page>
 				<allauthors>
 					<author type="1" title="ಶ್ರೀ">ವೆಂಕಟರಮಣನ್ ಡಿ. ಆರ್.</author>
+				</allauthors>
+			</entry>
+		</part>
+		<part pnum="09" month="06" year="1993" maasa="ಜ್ಯೇಷ್ಠ" samvatsara="ಶ್ರೀಮುಖ">
+			<entry>
+				<title>ಪ್ರಾರ್ಥನೆ</title>
+				<feature></feature>
+				<page>0000e-0000e</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ವರಗಳನ್ನು ಕೊಡುವವಳು ಅಂಬಿಕೆ - ಶ್ರೀ ಶ್ರೀ ಜಗದ್ಗುರು ಮಹಾಸ್ವಾಮಿಗಳ ಉಪದೇಶಾಮೃತ</title>
+				<feature></feature>
+				<page>0001-0007</page>
+				<allauthors>
+					<author type="2" title="">ವೆಂಕಟರಮಣನ್, ಡಿ. ಆರ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಮನೀಷಾ ಪಂಚಕ</title>
+				<feature></feature>
+				<page>0009-0014</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀ">ರಾಮಚಂದ್ರ ಶಾಸ್ತ್ರೀ, ಎಸ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಅದ್ವೈತ ವೇದಾಂತ - ಒಂದು ಪರಿಚಯ</title>
+				<feature></feature>
+				<page>0015-0019</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀ">ನರಸಿಂಹಮೂರ್ತಿ, ಹೆಚ್. ವಿ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶಿವ ಮತ್ತು ಶಕ್ತಿ</title>
+				<feature></feature>
+				<page>0021-0025</page>
+				<allauthors>
+					<author type="1" title="ಆಚಾರ್ಯ">ಬಲರಾಮಜೀ ಶಾಸ್ತ್ರೀ</author>
+					<author type="2" title="">ಭಾರದ್ವಾಜ</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಗೀತಾ ತತ್ತ್ವ ಚಿಂತನ</title>
+				<feature></feature>
+				<page>0027-0029</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರದ್ಧೇಯ ಸ್ವಾಮಿ">ರಾಮ ಸುಖದಾಸ್‌ಜೀ ಮಹಾರಾಜ್</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಮಹನೀಯಗುಣ</title>
+				<feature></feature>
+				<page>0031-0034</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀ">ವೆಂಕಟರಮಣನ್, ಡಿ. ಆರ್.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ಶೃಂಗೇರಿಯಲ್ಲಿ ಪ್ರತಿಷ್ಠಾ-ಕುಂಭಾಭಿಷೇಕ ಕಾರ್ಯಕ್ರಮ</title>
+				<feature></feature>
+				<page>0035-0040</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ಭಗವಂತನ ಅಸ್ತಿತ್ವ ಅಲ್ಲಗಳೆಯುವುದು ಮೂರ್ಖತನ</title>
+				<feature></feature>
+				<page>0041-0043</page>
+				<allauthors>
+					<author type="1" title="ಶ್ರೀ">ನರಸಿಂಹಮೂರ್ತಿ, ಎಚ್. ವಿ.</author>
 				</allauthors>
 			</entry>
 		</part>
@@ -48619,7 +48857,7 @@
 			</entry>
 		</part>
 	</volume>
-	<volume vnum="051">	
+	<volume vnum="051">
 		<part pnum="01" month="01" year="2014" maasa="ಪುಷ್ಯ" samvatsara="ವಿಜಯನಾಮ">
 			<entry>
 				<title>ಸಂಪಾದಕರ ಮಾತು</title>
