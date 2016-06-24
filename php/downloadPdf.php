@@ -1,9 +1,7 @@
 <?php
-
 	exec('find ../ReadWrite/ -mmin +10 -type f -name "*.pdf" -exec rm {} \;');
 	$downloadURL = '../index.php';
 	$titleid = $_GET['titleid'];
-	//~ $titleid = 'shankara_krupa_005_08_0020-0024;0029-0032_0';
 	if(isset($_GET['titleid']) && $_GET['titleid'] != "")
 	{
 		include("connect.php");
@@ -32,10 +30,12 @@
 		{
 			$pdfList .= '../Volumes/pdf/' . $volume . '/' . $part . '/' . $row["cur_page"] . '.pdf ';
 		}
+		//~ $temp = '../ReadWrite/Shankara_Krupa_' . time() . '_' . rand(1,9999) . '.pdf'; 
 		
 		$downloadURL = '../ReadWrite/Shankara_Krupa_' . $volume . '_' . $part . '_' . $page . '.pdf';
 		system ('pdftk ' . $pdfList . ' cat output ' . $downloadURL);
-		echo 'pdftk ' . $pdfList . ' cat output ' . $downloadURL;
+		//~ system ('pdfopt ' . $temp . ' ' . $downloadURL);
 	}
 	@header("Location: $downloadURL");
 ?>
+
