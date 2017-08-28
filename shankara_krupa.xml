@@ -652,7 +652,7 @@
 				<feature></feature>
 				<page>0460-0469</page>
 				<allauthors>
-					<author type="1" title="ಶ್ರೀ">ಪಾಣ್ಯಂ ಸುಂದರಶಾಸ್ತ್ರಿ</author>
+					<author type="1" title="ಶ್ರೀ">ಪಾನ್ಯಂ ಸುಂದರಶಾಸ್ತ್ರಿ</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -932,7 +932,7 @@
 				<feature></feature>
 				<page>0059-0071</page>
 				<allauthors>
-					<author type="1" title="ವಿಧ್ಯಾನಿಧಿ ಮಹೋಪಾಧ್ಯಾಯ ಶ್ರೀ">ಪಾಣ್ಯಂ ಸುಂದರಶಾಸ್ತ್ರಿ</author>
+					<author type="1" title="ವಿಧ್ಯಾನಿಧಿ ಮಹೋಪಾಧ್ಯಾಯ ಶ್ರೀ">ಪಾನ್ಯಂ ಸುಂದರಶಾಸ್ತ್ರಿ</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -1190,7 +1190,7 @@
 				<feature></feature>
 				<page>0242-0242</page>
 				<allauthors>
-					<author type="1" title="ಸಾಹಿತ್ಯರತ್ನ ಶ್ರೀ">ವೆಂಕಟಾದ್ರಿಶರ್ಮ ಕಂ. ಸು."></author>
+					<author type="1" title="ಸಾಹಿತ್ಯರತ್ನ ಶ್ರೀ">ವೆಂಕಟಾದ್ರಿಶರ್ಮ ಕಂ. ಸು."</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -1360,7 +1360,7 @@
 				<feature></feature>
 				<page>0005-0012</page>
 				<allauthors>
-					<author type="1" title="">ಪಾಣ್ಯಂ ಸುಂದರಶಾಸ್ತ್ರಿ</author>
+					<author type="1" title="">ಪಾನ್ಯಂ ಸುಂದರಶಾಸ್ತ್ರಿ</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -1415,8 +1415,8 @@
 			</entry>
 			<entry>
 				<title>ಸೂಚನೆ</title>
-				<feature>0004-0004</feature>
-				<page></page>
+				<feature></feature>
+				<page>0004-0004</page>
 				<allauthors />
 			</entry>
 			<entry>
@@ -1424,7 +1424,7 @@
 				<feature></feature>
 				<page>0005-0012</page>
 				<allauthors>
-					<author type="1" title="ಶ್ರೀ">ಪಾಣ್ಯಂ ಸುಂದರಶಾಸ್ತ್ರಿ</author>
+					<author type="1" title="ಶ್ರೀ">ಪಾನ್ಯಂ ಸುಂದರಶಾಸ್ತ್ರಿ</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -2004,7 +2004,7 @@
 			<entry>
 				<title>ಶ್ರೀ ಗಣೇಶ ಮಹಿಮೆ</title>
 				<feature></feature>
-				<page></page>
+				<page>0021-0026</page>
 				<allauthors />
 			</entry>
 			<entry>
@@ -6154,8 +6154,8 @@
 				</allauthors>
 			</entry>
 			<entry>
-				<title>ಚ್ರಾಹ್ಮಣರ ಕರ್ತವ್ಯ</title>
-				<feature></feature>
+				<title>ಬ್ರಾಹ್ಮಣರ ಕರ್ತವ್ಯ</title>  
+				<feature></feature> 
 				<page>0022-0024</page>
 				<allauthors>
 					<author type="1" title="">ಕೋಟ ವಾಸುದೇವ ಕಾರಂತ</author>
@@ -6178,7 +6178,7 @@
 		</part>
 		<part pnum="11" month="08" year="1973" maasa="ಶ್ರಾವಣ" samvatsara="ಪ್ರಮಾದಿ">
 			<entry>
-				<title>ಭೆವತುಕೃಷ್ಣೋsಕ್ಷಿವಿಷಯಃ</title>
+				<title>ಭವತುಕೃಷ್ಣೋsಕ್ಷಿವಿಷಯಃ</title>
 				<feature></feature>
 				<page>0001-0001</page>
 				<allauthors>
@@ -12658,7 +12658,7 @@
 		</part>	
 		<part pnum="05" month="02" year="1980" maasa="ಮಾಘ" samvatsara="ಸಿದ್ಧಾರ್ಥಿ">
 			<entry>
-				<title></title>
+				<title>ಸಾಂಬಶಿವಸ್ತುತಿ</title>
 				<feature></feature>
 				<page>0001-0002</page>
 				<allauthors />
@@ -44641,7 +44641,7 @@
 			<entry>
 				<title>ಶ್ರೀಮಠದ ಮಾಸಿಕ ಪಂಚಾಂಗ</title>
 				<feature></feature>
-				<page>100-100</page>
+				<page>0100-0100</page>
 				<allauthors />
 			</entry>
 		</part>
