@@ -1,6 +1,6 @@
 <?php
 $user='root';
-$password='mysql';
+$password='Mysql@123';
 $database='shankara_krupa';
 $type_code = '01';
 

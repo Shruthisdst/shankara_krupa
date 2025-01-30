@@ -35,26 +35,19 @@ br.getPageURI = function(index, reduce, rotate) {
 	
 	if(level == 1)
 	{
-		//~  to display loading popup
-		br.showProgressPopup('<img id="searchmarker" src="'+this.imagesBaseURL + 'marker_srch-on.png'+'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loading...');
-		$.ajax({type: "POST", url: "../templates/bgconvert.php?level="+level+"&index="+index+"&volume="+book.volume+"&imgurl="+book.imgurl+"&mode="+this.mode+"&part="+book.part, async: true , success :function(data){br.updater(data);} , data : {book:this.book.imglist}});
-		return br.imagesBaseURL + "transparent.png";
+
+		return book.bigImageUrl+"/"+book.imglist[index];
+		// br.showProgressPopup('<img id="searchmarker" src="'+this.imagesBaseURL + 'marker_srch-on.png'+'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loading...');
+		// $.ajax({type: "POST", url: "../templates/bgconvert.php?level="+level+"&index="+index+"&book_id="+book.book_id+"&imgurl="+book.imgurl+"&mode="+this.mode, async: true , success :function(data){br.updater(data);} , data : {book:this.book.imglist}});
+		// return br.imagesBaseURL + "transparent.png";
 	}
 	else
 	{
-		$.ajax({type: "POST", url: "../templates/bgconvert.php?level="+level+"&index="+index+"&volume="+book.volume+"&imgurl="+book.imgurl+"&mode="+this.mode+"&part="+book.part, async: true , data : {book:this.book.imglist}});
-		return book.imgurl+"/"+book.imglist[index]
+		//$.ajax({type: "POST", url: "../templates/bgconvert.php?lang="+book.lang+"&level="+level+"&index="+index+"&book_id="+book.book_id+"&imgurl="+book.imgurl+"&mode="+this.mode+"&month="+book.month+"&year="+book.year, async: true , data : {book:this.book.imglist}});
+		return book.imgurl+"/"+book.imglist[index];
 	}
-	
 }
 br.updater = function(result) {
-	//~  to remove popup of image loading
-	setTimeout(function(){
-		$(br.popup).fadeOut('slow', function() {
-			br.removeProgressPopup();
-		})        
-	},br.timeout);
-        
 	result = jQuery.parseJSON(result);
 	if(result.mode == 2)
 	{
@@ -68,6 +61,11 @@ br.updater = function(result) {
 	{
 		$(result.id+" img").attr("src", result.img);
 	}
+	setTimeout(function(){
+            $(br.popup).fadeOut('slow', function() {
+                br.removeProgressPopup();
+            })        
+        },br.timeout);
 }
 br.getBookId = function() {
 	return book.lang;

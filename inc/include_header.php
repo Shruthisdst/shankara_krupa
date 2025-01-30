@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="<?php echo $base_url; ?>php/img/aplogo.ico">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Kannada:wght@100..900&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -16,16 +19,6 @@
 	<link rel="shortcut icon" type="image/ico" href="<?php echo $base_url; ?>php/img/logo.gif" />
 
 	<link href="<?php echo $base_url; ?>php/css/font-awesome-4.1.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" /> <!-- Icon gallery (fontAwesome) style -->
-
-	<script>
-
-        if(localStorage.getItem('darkMode') === 'false' || localStorage.getItem('darkMode') === undefined || localStorage.getItem('darkMode') === null)
-			document.body.classList.remove('dark-mode');
-		else
-			document.body.classList.add('dark-mode');
-
-    </script>
-
 
 	<script type="text/javascript" src="<?php echo $base_url; ?>php/js/jquery-2.1.1.js"></script> 
 	<script type="text/javascript" src="<?php echo $base_url; ?>php/js/jquery-ui.js"></script>
@@ -39,7 +32,7 @@
 
 	<nav class="navbar navbar-expand-lg fixed-top">
 	  <div class="container-fluid">
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="<?php echo $base_url; ?>index.php">
 		      <img src="<?php echo $base_url; ?>php/img/logo.gif" class="img-fluid" alt="Tattvaloka logo" />
 		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

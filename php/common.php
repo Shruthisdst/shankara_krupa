@@ -177,6 +177,8 @@ function getMonth($month)
 	$month = preg_replace('/10/', 'ಅಕ್ಟೋಬರ್', $month);
 	$month = preg_replace('/11/', 'ನವೆಂಬರ್', $month);
 	$month = preg_replace('/12/', 'ಡಿಸೆಂಬರ್', $month);
+
+	$month = preg_replace('/-/', ' &ndash; ', $month);
 	
 	return $month;
 }
