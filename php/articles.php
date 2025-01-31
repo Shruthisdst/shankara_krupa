@@ -90,7 +90,7 @@ if($letter == 'other')
 }
 else
 {
-	$query = "select * from article where title like '$letter%' union select * from article where title like '\"$letter%' union select * from article where title like '\'$letter%' order by TRIM(BOTH '\'' FROM TRIM(BOTH '\"' FROM title))";
+	$query = "select * from article where title like '$letter%' union select * from article where title like '\"$letter%' union select * from article where title like '\'$letter%' order by volume, part, TRIM(BOTH '\'' FROM TRIM(BOTH '\"' FROM title))";
 }
 
 $result = $db->query($query); 
