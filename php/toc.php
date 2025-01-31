@@ -47,7 +47,7 @@ if($part == '99')
 else
 {
 	echo '<h1 class="clr1 pt-5">ಸಂಗ್ರಹ &gt; ಸಂಪುಟ ' . toKannada(intval($volume)) . ', ಸಂಚಿಕೆ '. toKannada($dpart) . '</h1>';
-	echo '<p class="small clr2"> (' . $info . ')</p>';
+	echo '<p class="small info-color"> (' . $info . ')</p>';
 }
 
 include("include_secondary_nav.php");

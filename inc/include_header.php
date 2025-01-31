@@ -14,7 +14,7 @@
 
 	<link rel="stylesheet" href="<?php echo $base_url; ?>php/css/font.css"> <!-- Font style -->
 	<link rel="stylesheet" href="<?php echo $base_url; ?>php/css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="<?php echo $base_url; ?>php/css/style.css?v=1.3"> <!-- Resource style -->
+	<link rel="stylesheet" href="<?php echo $base_url; ?>php/css/style.css?v=1.4"> <!-- Resource style -->
 	<link rel="stylesheet" href="<?php echo $base_url; ?>php/css/jquery-ui.css" /> <!-- jQuery UI style -->
 	<link rel="shortcut icon" type="image/ico" href="<?php echo $base_url; ?>php/img/logo.gif" />
 
@@ -33,7 +33,7 @@
 	<nav class="navbar navbar-expand-lg fixed-top">
 	  <div class="container-fluid">
 		<a class="navbar-brand" href="<?php echo $base_url; ?>index.php">
-		      <img src="<?php echo $base_url; ?>php/img/logo.gif" class="img-fluid" alt="Tattvaloka logo" />
+		      <img src="<?php echo $base_url; ?>php/img/logo.gif" class="img-fluid" alt="Sringeri Sharada peetham logo" />
 		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>

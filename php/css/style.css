@@ -20,6 +20,8 @@ Primary style
   --article-feature-color: #be0709;
   --issue-color: #777;
   --nav-bg-color: rgb(248, 249, 250);
+  --home-page-shloka-color: #000;
+  --info-color: #be0709;
 }
 
 .dark-mode{
@@ -30,6 +32,7 @@ Primary style
   --article-feature-color: #f5c4c5;
   --issue-color: #bff5eb;
   --nav-bg-color: rgb(206, 212, 218);
+  --info-color: #be0709;
 }
 
 
@@ -87,6 +90,12 @@ a {
 .clr5{
   color: var(--issue-color)  !important;
 }
+
+.info-color{
+  color: var(--info-color)  !important;
+}
+
+
 
 .buttonBgClr1{
   color: #3372df;
@@ -767,6 +776,7 @@ footer {
 }
 
 .fKan{
+  color: var(--home-page-shloka-color);
   font-family: "Noto Serif Kannada", serif;
 }
 
